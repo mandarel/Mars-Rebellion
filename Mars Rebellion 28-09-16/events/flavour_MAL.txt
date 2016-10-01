@@ -8,7 +8,7 @@ country_event = {
 	hidden = yes
 	
 	trigger = {	tag = MAL
-	any_province = {
+	any_owned_province = {
 			limit = { colonial_region = colonial_earth }
 				is_colony = yes
 	}
