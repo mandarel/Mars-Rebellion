@@ -1,0 +1,28 @@
+namespace = flavour_MAL
+
+country_event = {  
+	id = flavour_MAL.1
+	title = flavour_MAL.1.t
+	desc = flavour_MAL.1.d
+	picture = REFORM_eventPicture
+	hidden = yes
+	
+	trigger = {	tag = MAL
+	any_province = {
+			limit = { colonial_region = colonial_earth }
+				is_colony = yes
+	}
+	NOT = { has_country_modifier = "growth"}
+	}
+												
+	mean_time_to_happen = {
+       days = 1
+		}
+	option = {
+		name = "flavour_MAL.001.a"
+					PREV = {
+							change_province_name = "Abu Bakr II Station"
+					}
+				
+}
+}

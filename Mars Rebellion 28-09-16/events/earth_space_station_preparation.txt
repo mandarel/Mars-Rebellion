@@ -1,0 +1,110 @@
+
+namespace = earth_colonisation
+country_event = {
+	id =  earth_colonisation.1
+	title = earth_colonisation.1.t
+	desc = earth_colonisation.1.d
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = earth_colonisation.1.a
+			add_country_modifier = {
+				name = "space_adventures"
+				duration = 360
+				}		
+		}
+	
+	option = {
+		name = earth_colonisation.1.b
+
+		add_country_modifier = {
+			name = "investment"
+			duration = 3600
+		}
+	}
+}
+
+namespace = earth_space_station_preparation
+country_event = {
+	id =  earth_space_station_preparation.1
+	title = "earth_space_station_preparation.1.t"
+	desc = "earth_space_station_preparation.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {		# Support the House of Lancaster
+		name = "earth_space_station_preparation.1.a"
+		random_province = {
+			limit = { colonial_region = colonial_earth }
+				create_colony = 30
+				change_controller = ROOT
+				change_culture = ROOT 
+			}
+		add_manpower = -0.25
+	}
+}
+country_event = {
+	id =  earth_space_station_preparation.2
+	title = "earth_space_station_preparation.2.t"
+	desc = "earth_space_station_preparation.2.d"
+	picture = COLONIZATION_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "earth_space_station_preparation.2.a"
+			random_owned_province = {
+				limit = {
+					is_colony = yes
+				}
+				add_colonysize = 50
+			}
+			add_years_of_income = -0.2
+
+	}
+	option = {
+		name = "earth_space_station_preparation.2.b"
+
+	}
+}
+country_event = {
+	id =  earth_space_station_preparation.100
+	title = "earth_space_station_preparation.100.t"
+	desc = "earth_space_station_preparation.100.d"
+	picture = COLONIZATION_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "earth_space_station_preparation.100.a"
+
+		set_country_flag = built_earth_station 
+
+		add_manpower = 0.25
+
+	}
+}
+
+
+

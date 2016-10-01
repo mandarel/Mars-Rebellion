@@ -1,0 +1,532 @@
+namespace = economic_growth
+
+country_event = {  
+	id = economic_growth.1
+	title = economic_growth.1.t
+	desc = economic_growth.1.d
+	picture = REFORM_eventPicture
+	hidden = yes
+	
+	trigger = {	tag = RUS
+	NOT = { has_country_modifier = "growth"}
+	}
+												
+	mean_time_to_happen = {
+       days = 1
+		}
+	option = {
+		name = "economic_growth.001.a"
+		every_province  = {
+			limit = { controller = { stability = 3 } }
+			
+			random_list = {
+					50 = { 
+					add_base_manpower = 1 
+					add_base_production = 2 
+					add_base_tax = 2 
+					}
+					50 = { 					
+					add_base_manpower = 1 
+					add_base_production = 3
+					add_base_tax = 2  
+					}
+
+				}
+
+					
+				}
+				
+		every_province  = {
+			limit = {  controller = { stability = 2 } NOT = { controller = { stability = 3 }} }
+						random_list = {
+					50 = { 
+					add_base_manpower = 1 
+					add_base_production = 2 
+					add_base_tax = 2 
+					}
+					50 = { 					
+					add_base_manpower = 1 
+					add_base_production = 3
+					add_base_tax = 1  
+					}
+
+				}
+				}					
+		every_province  = {
+			limit = { controller = { stability = 1 } NOT = { controller = { stability = 2 }} }
+			
+							random_list = {
+					50 = { 
+					add_base_manpower = 1 
+					add_base_production = 2 
+					add_base_tax = 1
+					}
+					50 = { 					
+					add_base_manpower = 1 
+					add_base_production = 1
+					add_base_tax = 2  
+					}
+
+				}
+				}
+		every_province  = {
+			limit = { controller = { stability = 0 } NOT = { controller = { stability = 1 } }}
+			
+							random_list = {
+					50 = { 
+					add_base_manpower = 1 
+					add_base_production = 1
+					add_base_tax = 2 
+					}
+					50 = { 					
+					add_base_manpower = 1 
+					add_base_production = 1
+					add_base_tax = 2  
+					}
+
+				}
+				}
+		every_province  = {
+			limit = { controller = { stability = -1 } NOT = { controller = { stability = 0 }} }
+						random_list = {
+					50 = { 
+					add_base_manpower = 1 
+					add_base_production = 1 
+					add_base_tax = 1 
+					}
+					50 = { 					
+					add_base_manpower = 1 
+					add_base_production = 2
+					add_base_tax = 1  
+					}
+
+				}
+				}
+		every_province  = {
+			limit = { controller = { stability = -2 } NOT = { controller = { stability = -1 } }}
+			
+							random_list = {
+					50 = { 
+					add_base_manpower = 0 
+					add_base_production = 1 
+					add_base_tax = 0 
+					}
+					50 = { 					
+					add_base_manpower = 0 
+					add_base_production = 0
+					add_base_tax = 0  
+					}
+
+				}
+				}
+		every_province  = {
+			limit = { controller = { stability = -3 } NOT = { controller = { stability = -2 }} }
+			
+							random_list = {
+					50 = { 
+					add_base_manpower = -1 
+					add_base_production = -1 
+					add_base_tax = -1
+					}
+					50 = { 					
+					add_base_manpower = -1 
+					add_base_production = 0
+					add_base_tax = -1  
+					}
+
+				}
+				}
+				add_country_modifier = {
+					name = "growth"
+					duration = 720
+					desc = "economic_growth_desc.1"
+				}
+				
+}
+}
+
+
+country_event = { 
+	id = economic_growth.2
+	title = economic_growth.2.t
+	desc = economic_growth.2.d
+	picture = REFORM_eventPicture
+	hidden = yes
+	
+	trigger = {	tag = RUS
+	NOT = { has_country_modifier = "correction"}
+	}
+												
+	mean_time_to_happen = {
+       days = 1
+
+
+	}
+	option = {
+		name = "economic_growth.002.a"
+		
+		
+
+		
+		
+		
+		
+		every_province  = {
+			limit = {  base_tax = 2  NOT = { base_tax = 4}}
+					add_base_tax = -1 
+				
+			}
+		every_province  = {
+			limit = {  base_tax = 4  NOT = { base_tax = 6}}
+					add_base_tax = -2 
+				
+			}
+		every_province  = {
+			limit = { base_tax = 6  NOT = { base_tax = 8}}
+					add_base_tax = -3 
+				
+			}
+		every_province  = {
+			limit = { base_tax = 8  NOT = { base_tax = 10}}
+					add_base_tax = -4 
+				
+			}
+		every_province  = {
+			limit = {  base_tax = 10  NOT = { base_tax = 12}}
+					add_base_tax = -5 
+				
+			}
+		every_province  = {
+			limit = { base_tax = 12  NOT = { base_tax = 14}}
+					add_base_tax = -6 
+				
+			}
+		every_province  = {
+			limit = {  base_tax = 14  NOT = { base_tax = 16}}
+					add_base_tax = -7 
+				
+			}
+		every_province  = {
+			limit = { base_tax = 16  NOT = { base_tax = 18}}
+					add_base_tax = -8 
+				
+			}
+		every_province  = {
+			limit = {  base_tax = 18  NOT = { base_tax = 20}}
+					add_base_tax = -9 
+				
+			}
+		every_province  = {
+			limit = {   base_tax = 20  NOT = { base_tax = 22}}
+					add_base_tax = -10 
+				
+			}
+		every_province  = {
+			limit = {   base_tax = 22  NOT = { base_tax = 24}}
+					add_base_tax = -11 
+				
+			}
+		every_province  = {
+			limit = {   base_tax = 24  NOT = { base_tax = 26}}
+					add_base_tax = -12 
+				
+			}
+		every_province  = {
+			limit = {   base_tax = 26  NOT = { base_tax = 28}}
+					add_base_tax = -13 
+				
+			}
+		every_province  = {
+			limit = {   base_tax = 28  NOT = { base_tax = 30}}
+					add_base_tax = -14 
+				
+			}
+		every_province  = {
+			limit = {   base_tax = 30  NOT = { base_tax = 32}}
+					add_base_tax = -15 
+				
+			}
+		every_province  = {
+			limit = {   base_tax = 32  NOT = { base_tax = 34}}
+					add_base_tax = -16 
+				
+			}
+		every_province  = {
+			limit = {   base_tax = 34  NOT = { base_tax = 36}}
+					add_base_tax = -17 
+				
+			}every_province  = {
+			limit = {   base_tax = 36  NOT = { base_tax = 38}}
+					add_base_tax = -18 
+				
+			}every_province  = {
+			limit = {   base_tax = 38  NOT = { base_tax = 40}}
+					add_base_tax = -19 
+				
+			}every_province  = {
+			limit = {   base_tax = 40  NOT = { base_tax = 42}}
+					add_base_tax = -20 
+				
+			}every_province  = {
+			limit = {   base_tax = 42  NOT = { base_tax = 44}}
+					add_base_tax = -21 
+				
+			}		every_province  = {
+			limit = {   base_tax = 44  NOT = { base_tax = 46}}
+					add_base_tax = -22 
+				
+			}
+			every_province  = {
+			limit = {   base_tax = 46  NOT = { base_tax = 48}}
+					add_base_tax = -23 
+				
+			}
+			every_province  = {
+			limit = {  base_tax = 48  }
+					add_base_tax = -46 
+				
+			}
+	######################################################
+
+		
+		every_province  = {
+			limit = {   base_production = 2  NOT = { base_production = 4}}
+					add_base_production = -1 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 4  NOT = { base_production = 6}}
+					add_base_production = -2 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 6  NOT = { base_production = 8}}
+					add_base_production = -3 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 8  NOT = { base_production = 10}}
+					add_base_production = -4 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 10  NOT = { base_production = 12}}
+					add_base_production = -5 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 12  NOT = { base_production = 14}}
+					add_base_production = -6 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 14  NOT = { base_production = 16}}
+					add_base_production = -7 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 16  NOT = { base_production = 18}}
+					add_base_production = -8 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 18  NOT = { base_production = 20}}
+					add_base_production = -9 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 20  NOT = { base_production = 22}}
+					add_base_production = -10 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 22  NOT = { base_production = 24}}
+					add_base_production = -11 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 24  NOT = { base_production = 26}}
+					add_base_production = -12 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 26  NOT = { base_production = 28}}
+					add_base_production = -13 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 28  NOT = { base_production = 30}}
+					add_base_production = -14 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 30  NOT = { base_production = 32}}
+					add_base_production = -15 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 32  NOT = { base_production = 34}}
+					add_base_production = -16 
+				
+			}
+		every_province  = {
+			limit = {   base_production = 34  NOT = { base_production = 36}}
+					add_base_production = -17 
+				
+			}every_province  = {
+			limit = {   base_production = 36  NOT = { base_production = 38}}
+					add_base_production = -18 
+				
+			}every_province  = {
+			limit = {   base_production = 38  NOT = { base_production = 40}}
+					add_base_production = -19 
+				
+			}every_province  = {
+			limit = {   base_production = 40  NOT = { base_production = 42}}
+					add_base_production = -20 
+				
+			}every_province  = {
+			limit = {   base_production = 42  NOT = { base_production = 44}}
+					add_base_production = -21 
+				
+			}		every_province  = {
+			limit = {   base_production = 44  NOT = { base_production = 46}}
+					add_base_production = -22 
+				
+			}
+			every_province  = {
+			limit = {   base_production = 46  NOT = { base_production = 48}}
+					add_base_production = -23 
+				
+			}
+			every_province  = {
+			limit = {  base_production = 48  }
+					add_base_production = -40 
+				
+			}
+	#############################
+		
+		every_province  = {
+			limit = {   base_manpower = 2  NOT = { base_manpower = 4}}
+					add_base_manpower = -1 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 4  NOT = { base_manpower = 6}}
+					add_base_manpower = -2 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 6  NOT = { base_manpower = 8}}
+					add_base_manpower = -3 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 8  NOT = { base_manpower = 10}}
+					add_base_manpower = -4 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 10  NOT = { base_manpower = 12}}
+					add_base_manpower = -5 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 12  NOT = { base_manpower = 14}}
+					add_base_manpower = -6 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 14  NOT = { base_manpower = 16}}
+					add_base_manpower = -7 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 16  NOT = { base_manpower = 18}}
+					add_base_manpower = -8 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 18  NOT = { base_manpower = 20}}
+					add_base_manpower = -9 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 20  NOT = { base_manpower = 22}}
+					add_base_manpower = -10 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 22  NOT = { base_manpower = 24}}
+					add_base_manpower = -11 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 24  NOT = { base_manpower = 26}}
+					add_base_manpower = -12 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 26  NOT = { base_manpower = 28}}
+					add_base_manpower = -13 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 28  NOT = { base_manpower = 30}}
+					add_base_manpower = -14 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 30  NOT = { base_manpower = 32}}
+					add_base_manpower = -15 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 32  NOT = { base_manpower = 34}}
+					add_base_manpower = -16 
+				
+			}
+		every_province  = {
+			limit = {   base_manpower = 34  NOT = { base_manpower = 36}}
+					add_base_manpower = -17 
+				
+			}every_province  = {
+			limit = {   base_manpower = 36  NOT = { base_manpower = 38}}
+					add_base_manpower = -18 
+				
+			}every_province  = {
+			limit = {   base_manpower = 38  NOT = { base_manpower = 40}}
+					add_base_manpower = -19 
+				
+			}every_province  = {
+			limit = {   base_manpower = 40  NOT = { base_manpower = 42}}
+					add_base_manpower = -20 
+				
+			}every_province  = {
+			limit = {   base_manpower = 42  NOT = { base_manpower = 44}}
+					add_base_manpower = -21 
+				
+			}		every_province  = {
+			limit = {   base_manpower = 44  NOT = { base_manpower = 46}}
+					add_base_manpower = -22 
+				
+			}
+			every_province  = {
+			limit = {   base_manpower = 46  NOT = { base_manpower = 48}}
+					add_base_manpower = -23 
+				
+			}
+			every_province  = {
+			limit = {  base_manpower = 48  }
+					add_base_manpower = -40 
+				
+			}
+				add_country_modifier = {
+					name = "correction"
+					duration = 1800
+					desc = "economic_growth_desc.2"
+				}
+				
+			
+}
+}
