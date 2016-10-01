@@ -1,0 +1,21 @@
+#343 - Fez
+
+owner = RUS
+controller = RUS 
+culture = russian
+religion = orthodox
+capital = "Fez"
+trade_goods = cloth
+hre = yes
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+fort_15th = yes
+add_core = RUS
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+

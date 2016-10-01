@@ -1,0 +1,5 @@
+government = feudal_monarchy
+technology_group = eastern
+primary_culture = central_thai
+religion = buddhism
+capital = 312	# Sofia

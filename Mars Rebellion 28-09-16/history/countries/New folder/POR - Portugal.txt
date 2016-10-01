@@ -1,0 +1,11 @@
+government = daimyo
+primary_culture = portugese
+religion = catholic
+technology_group = western
+historical_friend = SPA
+historical_friend = CAS
+capital = 227 # Lisboa
+
+
+national_focus = DIP
+

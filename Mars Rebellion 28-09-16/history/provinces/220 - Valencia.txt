@@ -1,0 +1,22 @@
+#220 - València
+
+owner = USA	#Alfons V of Aragon
+controller = USA
+add_core = USA
+culture = american
+religion = catholic
+hre = yes
+base_tax = 6 
+base_production = 5 
+trade_goods = cloth
+base_manpower = 3
+fort_15th = yes
+capital = "València" 
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

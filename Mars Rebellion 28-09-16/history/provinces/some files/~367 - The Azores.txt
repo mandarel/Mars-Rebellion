@@ -1,0 +1,19 @@
+#367 - The Azores
+
+
+capital = "The Azores"
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+
+discovered_by = western 
+
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+	is_city = yes
+	culture = portugese
+	religion = catholic
+
+trade_goods = fish 

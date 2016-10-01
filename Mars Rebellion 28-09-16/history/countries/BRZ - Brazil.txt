@@ -1,0 +1,10 @@
+government = despotic_monarchy 
+technology_group = western
+religion = catholic
+primary_culture = brazillian
+capital = 169	# Brasilia
+elector = yes
+
+
+
+

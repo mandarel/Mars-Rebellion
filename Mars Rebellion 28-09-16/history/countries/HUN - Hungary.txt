@@ -1,0 +1,7 @@
+government = daimyo
+primary_culture = hungarian
+add_accepted_culture = croatian
+religion = catholic
+technology_group = eastern
+capital = 153 # Buda
+historical_friend = HAB

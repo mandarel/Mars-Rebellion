@@ -1,0 +1,18 @@
+government = daimyo
+primary_culture = polish
+religion = catholic
+technology_group = eastern
+historical_rival = RUS
+capital = 62 # Warszawa
+
+national_focus = ADM
+
+2009.1.1 = {
+	monarch = {
+		name = "Donald Tusk"
+		dynasty = "Liberal"
+		ADM = 4
+		DIP = 6
+		MIL = 4
+	}
+}

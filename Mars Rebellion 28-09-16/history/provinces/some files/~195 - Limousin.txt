@@ -1,0 +1,23 @@
+# 195 Limousin - Principal cities: Limoges
+
+owner = COL
+controller = COL
+capital = "Limoges"
+is_city = yes
+culture = gascon
+religion = catholic
+hre = no
+base_tax = 5 
+base_production = 5
+trade_goods = grain
+base_manpower = 2
+add_core = COL
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+

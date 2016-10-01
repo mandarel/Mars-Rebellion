@@ -1,0 +1,21 @@
+#341 - Tunis
+
+owner = RUS
+controller = RUS 
+culture = russian
+religion = orthodox
+capital = "Tunis"
+trade_goods = cloth
+hre = yes
+base_tax = 6 
+base_production = 6
+base_manpower = 2
+is_city = yes
+add_core = RUS
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

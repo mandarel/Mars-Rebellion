@@ -1,0 +1,22 @@
+#54 - Stade
+
+owner = LVA
+controller = LVA
+culture = hannoverian
+religion = catholic
+capital = "Bremervörde"
+trade_goods = fish
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 4
+is_city = yes
+add_core = LVA
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+

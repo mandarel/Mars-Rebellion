@@ -1,0 +1,23 @@
+# 169 Armor - Principal cities: Rennes
+
+owner = BRZ
+controller = BRZ
+capital = "Rennes"
+is_city = yes
+culture = brazillian
+religion = catholic
+hre = yes
+base_tax = 5 
+base_production = 5
+trade_goods = cloth
+base_manpower = 5
+estate = estate_church
+add_core = BRZ
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+

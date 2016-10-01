@@ -1,0 +1,6 @@
+government = despotic_monarchy
+primary_culture = korean
+religion = confucianism
+technology_group = chinese
+capital = 361	# Hanseong
+

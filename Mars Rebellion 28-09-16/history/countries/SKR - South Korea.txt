@@ -1,0 +1,5 @@
+government = despotic_monarchy
+primary_culture = korean
+religion = confucianism
+technology_group = western
+capital = 362	# Hanseong# No previous file for South Korea

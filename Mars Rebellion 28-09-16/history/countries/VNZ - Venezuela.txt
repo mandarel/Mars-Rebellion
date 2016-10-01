@@ -1,0 +1,15 @@
+government = despotic_monarchy
+technology_group = western
+religion = catholic
+primary_culture = castillian
+capital = 198	# Caracas
+
+2009.1.1 = {
+	monarch = {
+		name = "Hugo Chaves"
+		dynasty = "Socialist"
+		ADM = 4
+		DIP = 6
+		MIL = 4
+	}
+}

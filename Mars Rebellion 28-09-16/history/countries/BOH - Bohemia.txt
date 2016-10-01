@@ -1,0 +1,7 @@
+government = daimyo
+primary_culture = czech
+religion = catholic
+elector = yes
+capital = 266 # Praha
+technology_group = western
+add_accepted_culture = saxon
