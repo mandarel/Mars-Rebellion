@@ -1,0 +1,189 @@
+# A province can only belong to one region!
+
+# random_new_world_region is used for RNW. Must be first in this list.
+random_new_world_region = {
+}
+
+########################################
+# EUROPE                               #
+########################################
+west_europe_region = {
+	areas={
+		france_area
+		germany_area
+		italy_area
+		britain_area
+		spain_area
+		benelux_area
+	}
+}
+scandinavia_region = {
+
+	areas = {
+	sweden_area
+	denmark_area
+	finland_area
+	norway_area
+	
+	}
+	
+}
+east_europe_region = {
+	areas = {
+		west_slavic_area
+		ukraine
+		belarus
+		pribaltica_area
+	}
+}
+balkans_region = {
+	areas = {
+		south_slavic_area
+		hungary_romania_area
+	}
+}
+space_region = {
+	areas = {
+		mercury_area
+		venus_area
+		earth_area
+		luna_area 
+		mars_area 
+		
+		jupiter_area 
+		saturn_area 
+		uran_area 
+		neptun_area
+	}
+}
+
+
+
+siberia_region = {
+	areas = {
+		west_siberia_area 
+		central_siberia_area 
+		east_siberia_area 
+		central_asia_area
+	}
+}
+russia_region = {
+	areas = {
+		ural_area
+		russia_area
+		caucasia_area
+		
+		
+	}
+}
+north_africa_region = {
+	areas = {
+		egypt_area
+		maghreb_area
+		}
+}
+arabia_region = {
+	areas = {
+		mashriq_area
+		anatolia_area
+		persia_area
+		arabia_area
+		
+	}
+}
+indian_penisula_region = {
+	areas = {
+		pakistani_area
+		bengal_area
+		india_area
+		
+	}
+}
+west_africa_region = {
+	areas = {
+		niger_area
+		guinea_area
+		}
+}
+east_africa_region = {
+	areas = {
+		horn_of_africa_area
+		sahel_area
+		east_africa_area
+		}
+}
+central_africa_region = {
+	areas = {
+		central_africa_area
+		kongo_area
+		}
+}	
+south_africa_region = {
+	areas = {
+		south_africa_area
+		}
+}
+china_region = {
+	areas = {
+		mongolia_area
+		manchuria_area
+		tibet_area
+		beijing_area
+		china_coast_area
+		china_interior_area
+		sinkiang_area
+		korea_area
+	}
+}
+oceania_region = {
+	areas = {
+		south_east_asia_area
+		indonesia_area
+		australia_area
+		japan_area
+		}
+}
+mexico_region = {
+	areas = {
+		south_mexico_area
+		north_mexico_area
+		}
+}
+north_america_region = {
+	areas = {
+		east_coast_north_america_area
+		west_coast_north_america_area
+		canada_interior_area
+		east_america_interior_area
+		central_north_america_interior_area
+		}
+}
+north_west_south_america_region = {
+	areas = {
+		colombian_area
+		peru_area
+		guyana_area
+		venezuela_area
+		}
+}
+brazil_region = {
+	areas = {
+		amazon_area
+		brazil_coast_area
+		brazil_interior_area
+		}
+}
+south_south_america_region= {
+	areas = {
+		argentina_area
+		chile_area
+		central_south_america_area
+		}
+}
+central_america_region = {
+	areas = {
+		latin_america_area
+		caribbean_area
+		}
+}
+

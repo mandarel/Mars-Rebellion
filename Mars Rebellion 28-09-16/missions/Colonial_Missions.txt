@@ -1,0 +1,55 @@
+establish_colony_mission = {
+
+	type = empty_provinces
+	
+	category = DIP
+	
+	allow = {
+		FROM = { 
+			num_of_ports = 1
+			num_of_colonists = 1
+			primitives = no
+		}
+		range = FROM
+		has_port = yes
+		has_discovered = FROM
+		OR = {
+			FROM = { is_colonial_nation = no }
+			any_neighbor_province = { owned_by = FROM }
+			FROM = {
+				capital_scope = { colonial_region = ROOT }
+			}
+		}
+	}
+	abort = {
+		OR = {
+			AND = {
+				is_empty = no
+				NOT = { owned_by = FROM }
+			}
+			FROM = { NOT = { num_of_ports = 1 } }
+		}
+	}
+	success = {
+		owned_by = FROM
+		colonysize = 400
+	}
+	chance = {
+		factor = 1000
+		
+		modifier = {
+			factor = 1.05
+			FROM = {
+				any_owned_province = { area = ROOT }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			add_country_modifier = {
+				name = "colonial_enthusiasm"
+				duration = 3650
+			}
+		}
+	}
+}
