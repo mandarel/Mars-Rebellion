@@ -1,0 +1,22 @@
+#118 - Roma
+
+owner = LIB
+controller = LIB
+culture = tunisian 
+religion = selfgovernance 
+hre = yes
+base_tax = 10 
+base_production = 10
+trade_goods = grain
+base_manpower = 8
+capital = "Roma"
+is_city = yes
+fort_15th = yes #Castel Sant'Angelo
+add_core = LIB
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

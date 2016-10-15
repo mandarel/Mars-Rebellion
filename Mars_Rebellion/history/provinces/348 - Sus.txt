@@ -1,0 +1,23 @@
+#348 - Sus
+
+owner = CHI
+controller = CHI
+culture = jin
+religion = shanghai_pact
+capital = "Taroudant"
+trade_goods = sugar
+hre = yes
+base_tax = 5 
+base_production = 5
+base_manpower = 2
+is_city = yes
+estate = estate_nobles
+add_core = CHI
+
+
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+

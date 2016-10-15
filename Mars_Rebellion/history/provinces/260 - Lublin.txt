@@ -1,0 +1,24 @@
+#260 - Lublin
+
+owner = ARB
+controller = ARB
+capital= "Lublin"
+culture = bedouin_arabic
+religion = nato_sphere
+trade_goods = cloth
+hre = yes
+base_tax = 6
+base_production = 6
+base_manpower = 4
+is_city = yes
+estate = estate_nobles
+add_core = ARB
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+
+1536.1.1 = { religion = nato_sphere reformation_center = nato_sphere }

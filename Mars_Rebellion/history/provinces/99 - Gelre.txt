@@ -1,0 +1,22 @@
+# 99 Gelre - Principal cities: Arnhem, Zwolle & Nijmegen
+
+owner = GBR
+controller = GBR
+capital = "Arnhem"
+is_city = yes
+culture = english
+religion = european_union
+hre = yes
+base_tax = 6 
+base_production = 6
+trade_goods = grain
+base_manpower = 3
+add_core = GBR
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+

@@ -1,0 +1,23 @@
+#218 - Badajoz
+
+owner = MEX		#Juan II of Castille
+controller = MEX
+add_core = MEX
+culture = mexican
+religion = nato_sphere
+hre = yes
+base_tax = 4
+base_production = 4
+trade_goods = wool 
+base_manpower = 4
+capital = "Badajoz" 
+estate = estate_nobles
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+

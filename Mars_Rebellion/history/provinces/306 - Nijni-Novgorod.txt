@@ -1,0 +1,22 @@
+#306 - Nijni-Novgorod
+
+owner = IND
+controller = IND
+culture = rajput
+religion = selfgovernance
+hre = yes
+base_tax = 30
+base_production = 30
+trade_goods = iron 
+base_manpower = 10
+capital = "Nizhny Novgorod"
+is_city = yes
+fort_15th = yes
+estate = estate_nobles
+add_core = IND
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group

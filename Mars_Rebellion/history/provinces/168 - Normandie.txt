@@ -1,0 +1,22 @@
+# 168 Normandie - Principal cities: Caen
+
+owner = BRZ
+controller = BRZ 
+capital = "Caen"
+is_city = yes
+culture = brazillian
+religion = nato_sphere
+hre = yes
+base_tax = 6 
+base_production = 6
+trade_goods = naval_supplies
+base_manpower = 5
+add_core = BRZ
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+

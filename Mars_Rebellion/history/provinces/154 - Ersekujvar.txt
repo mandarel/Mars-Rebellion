@@ -1,0 +1,20 @@
+#154 - Ersekujvar
+
+owner = ZAM
+controller = ZAM
+culture = khoisan
+religion = selfgovernance
+capital = "Érsekújvár"
+trade_goods = copper
+hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+estate = estate_nobles
+fort_15th = yes #Spiš castle, Eger Castle, Orava
+add_core = ZAM
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
