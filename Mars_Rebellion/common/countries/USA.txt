@@ -1,0 +1,95 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+colonial_parent = GBR
+random_nation_chance = 0
+
+historical_score = 200
+
+color = { 69  157  208 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	maritime_ideas
+	administrative_ideas
+	offensive_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"John McCain  " = 20
+	"Barbara Bush  " = 20
+	"Adam Smith  " = 20
+	"Robert Jr. Swift  " = 20
+	"Charles  " = 15
+	
+    "Deborah  " = -1
+    "Sarah  " = -1
+    "Anne  " = -1
+}
+
+leader_names = {
+	Adams 
+	Burr
+	Clinton
+	Jay Jefferson 
+	Harrison
+	King
+	Langdon
+	Madison Monroe 
+	Pickney
+	Rutledge
+	Starbuck Steed Stryder Sutcliffe Swaggert Stover 
+	Stetson Kempton Kendrick Lane Lindon Lyle Merrick 
+	Atworth Arnott Ashton Boyd Caddock Drummond Arkeith
+	Kennedy Trevin Vaughan Dylan Dalton Dellwin Sheldon
+	Spencer Thorley Thompson Unwin Walden Ward Winston
+	Douglas Floyd Richardson
+}
+
+ship_names = {
+	Adams Alfred Alliance America "Andrew Doria" Argo Argus
+	"Bonhomme Richard" Boston 
+	Cabot Chesapeake Champion Columbus Confederacy Congress Constellation Constitution
+	Dolphin Deane Delaware Diligent 
+	Effingham Enterprise Essex
+	Fly
+	"General Gates" "General Washington"
+	Hampden Hancock Hornet
+	Independence 
+	"John Adams"
+	Lexington
+	Montgomery Mosquito
+	Nautilus
+	Philadelphia Pigot President Providence
+	"Queen of France"
+	Raleigh Randolph Racehorse Ranger Reprisal Repulse Resistance Retaliation Revenge
+	Sachem Saratoga Serapis Siren Surprise
+	Trumbull
+	"United States"
+	Viper Virginia Vixen
+	Warren Washington Wasp 
+}

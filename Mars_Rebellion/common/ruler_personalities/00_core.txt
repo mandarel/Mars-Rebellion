@@ -1,0 +1,147 @@
+
+#"Statesman" Traits
+just_personality = {
+	#personality_events.10
+	ruler_allow = {
+		allow = {
+		}
+	
+		chance = {
+			modifier = {
+				factor = 1
+				ADM = 6
+			}
+		}
+	}
+
+	heir_allow = {
+		allow = {
+		}
+	
+		chance = {
+			modifier = {
+				factor = 1
+				ADM = 6
+			}
+		}
+	}
+	
+	consort_allow = {
+		allow = {
+		}
+
+		chance = {
+			modifier = {
+				factor = 1
+				ADM = 6
+			}
+		}
+	}
+
+	easy_war_chance_multiplier = 0.5
+	fair_fights = yes
+	
+	global_unrest = -2
+	nation_designer_cost = 5
+} #1 less bad
+
+righteous_personality = {
+	#personality_events.11
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1
+				ADM = 6
+			}
+			modifier = {
+				factor = 1
+				has_new_dynasty = yes
+			}
+		}
+	}
+
+	heir_allow = {
+	
+		chance = {
+			modifier = {
+				factor = 1
+				heir_adm = 6
+			}
+		}
+	}
+	
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1
+				consort_adm = 6
+			}
+		}
+	}
+	
+	allow = {
+		OR = {
+			government = republic
+			government = monarchy
+		}
+	}
+	
+	chance = {
+		
+	}
+	
+	easy_war_chance_multiplier = 0.75
+	
+	legitimacy = 1
+	republican_tradition = 0.005
+	nation_designer_cost = 5
+} #1 better, 1 less bad
+
+tolerant_personality = {
+	#personality_events.13
+	ruler_allow = {
+		allow = {
+
+		}
+	}
+
+	heir_allow = {
+		allow = {
+
+		}
+	}
+	
+	consort_allow = {
+		allow = {
+
+		}
+	}
+	
+	allow = {
+		OR = {
+			any_owned_province = { has_owner_religion = no }
+			any_neighbor_country = { NOT = { religion = ROOT } }
+		}
+		NOT = { 
+			has_idea_group = religious_ideas
+		}
+	}
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = { dominant_religion = ROOT }
+		}
+		modifier = {
+			factor = 1
+			has_idea_group = humanist_ideas
+		}
+	}
+	
+	heretic_ally_acceptance = 10
+	heathen_ally_acceptance = 20
+	
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	nation_designer_cost = 5
+}

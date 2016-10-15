@@ -1,0 +1,151 @@
+#Albania
+
+graphical_culture = easterngfx
+
+color = { 181  0  20 }
+
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+monarch_names = {
+	"Gjergj  " = 20
+	"Lekë  " = 20
+	"Gjon  " = 10
+	"Kostandin  " = 10
+	"Lulëzim  " = 10
+	"Pal  " = 0
+	"Tanush  " = 10
+	"Aleksandër  " = 10
+	"Karolus  " = 1
+	"Filippo  " = 1
+	"Adnan  " = 1
+	"Agim  " = 1
+	"Bashkim  " = 1
+	"Besnik  " = 1
+	"Bujar  " = 1
+	"Dardan  " = 1
+	"Dhurim  " = 1
+	"Dritëro  " = 1
+	"Elidon  " = 1
+	"Erjon  " = 1
+	"Fatmir  " = 1
+	"Flamur  " = 1
+	"Florin  " = 1
+	"Hekuran  " = 1
+	"Ilir  " = 1
+	"Ismail  " = 5
+	"Klodian  " = 1
+	"Luigj  " = 1
+	"Milaim  " = 1
+	"Nikolla  " = 1
+	"Pashko  " = 1
+	"Pëllumb  " = 5
+	"Përparim  " = 1
+	"Pjetër  " = 5
+	"Rrok  " = 1
+	"Shpëtim  " = 1
+	"Tahir  " = 1
+	"Viktor  " = 1
+	"Xhevat  " = 1
+	"Ylli  " = 1
+	"Zenel  " = 1
+	"Gjylo  " = -1
+	"Halil  " = 1
+	"Ali  " = 10
+	"Mustafa  " = 10
+	"Qemal  " = 1
+	"Enver  " = 1
+	"Mehmet  " = 1
+	"Ramiz  " = 1
+	"Edi  " = 1
+	"Demaci  " = 1
+	"Edon  " = 1
+	"Dukagjin  " = 10
+	"Haxhi  " = 10
+	"Lishëndri  " = 1
+	"Mensur  " = 1
+	"Kreshnik  " = 1
+	"Rahman  " = 1
+	"Nxhiku  " = 1
+	"Riza  " = 1
+	"Rexhep  " = 1
+	"Ramadan  " = 1
+	"Sulejman  " = 10
+	"Selim  " = 1
+	"Sadik  " = 1
+}
+
+leader_names = {
+	Arianit
+	Badera Balsha Bua
+	Cervota Comneniates
+	Dukagjini
+	Faqemiri
+	Gojcin Golemi
+	Kastrioti
+	Losha
+	Musaki
+	Sguros Shpata Spani
+	Thopia
+	Toptani
+	Vishanj
+	Zenevisi Zogu
+	Hoxha
+	Çarçani
+	Chani
+	Dosti
+	Elezi
+	Duka
+	Fakaj
+	Corbajram
+	Halili
+	Hamza
+	Gecaj
+	Hajdaraga
+	Gjokaj
+	Gjika
+	Shehu
+	Alia
+	Vata
+	Veseli
+	Xhumba
+	Xhaferi
+	Ziberi
+	Useni
+	Ymeri
+}
+
+ship_names = {
+	"Bishti i Palles"
+	"Gjiri i Drinit" "Gjiri i Rondonit"
+	Jube
+	"Kalaja e Turres" "Kepi i Rodonit" Kyrekuq
+	Shengjin Shetaj
+	Velipoje
+}

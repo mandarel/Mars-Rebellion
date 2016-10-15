@@ -1,0 +1,115 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 26  53  177 }
+
+historical_idea_groups = {
+	naval_ideas
+	offensive_ideas
+	maritime_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+
+historical_units = {
+	east_asian_spearmen
+	eastern_bow
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+}
+
+monarch_names = {
+	"In " = 40
+	"Se " = 40
+	"Ye " = 20
+	"Seong " = 20
+	"Yonsan " = 20
+	"Jung " = 20
+	"Myeon " = 20
+	"Seon " = 20
+	"Gwanghae " = 20
+	"Hyo " = 20
+	"Hyeon " = 20
+	"Suk " = 20
+	"Gyeong " = 20
+	"Yeong " = 20
+	"Jeong " = 20
+	"Dan " = 20
+	"Mun " = 20
+	"Tae " = 20
+	"Imhae " = 10
+	"Uian " = 10
+	"Bokseong " = 10
+	"Geumwon " = 10
+	"Yeongyang " = 10
+	"Yeongchang " = 10
+	"Yuenrueng " = 10
+	"Sado " = 10
+	"Munhyo " = 10
+	"Bongseong " = 5
+	"Deokheung " = 5
+	"Sinseong " = 5
+	"Uichang " = 5
+	"Jeongwon " = 5
+	"Hyesun " = -5
+	"Hyejeong " = -5
+	"Hyohye " = -5
+	"Uihye " = -5
+	"Hyosun " = -5
+	"Gyeonghyeon " = -5
+	"Insun " = -5
+	"Jeongsin " = -5
+	"Jeonghye " = -5
+	"Jeongsuk " = -5
+	"Jeong-an " = -5
+	"Jeonghyu " = -5
+	"Jeongmyeong " = -5
+	"Hwan " = 1
+	"Do " = 1
+	"Ik " = 1
+	"Mok " = 1
+	"Si " = 1
+	"I " = 0
+	"Guem " = 0
+	"Sun " = 20
+	"Rip " = 0
+	"Il " = 0
+	"Dong " = 0
+	"Gwai " = 0
+	"Sang " = 0
+	"Ji " = 0
+	"U " = 0
+	"Gyu " = 0
+	"Dae " = 0
+	"Gu " = 0
+}
+
+leader_names = {
+	Kim Yi Pak Choi Jeong Ga Gye Go Ra Noh Dam Do Du
+	Ryu Ban Ma Mun Seo Son Song Sin Sim An Yang O Yun
+	Jang Chung Jeon Cho Chin Han Ha Hong Heo
+}
+
+ship_names = {
+	Baekdu Baekje 
+	Changbai
+	Duman Daedeok Dongmyeongseong
+	Gayasan Geumgang Geumho Goguryeo "Gyeon Hwon"
+	Jirisan Jeongjong
+	Kumgangsan
+	Nakdong
+	Sincheon Silla Sobaek
+	Taebaek Taejo 
+	Hanseong Haemosu Habaek Hwaeomsa
+	Worak
+	Yuhwa Yeong 
+	"Jeong Do-jeon" "Yi Seong-gye"
+}

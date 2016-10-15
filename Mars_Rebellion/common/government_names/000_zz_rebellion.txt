@@ -1,0 +1,147 @@
+# Fallback defaults
+# Will pick the first valid one it finds in list
+
+gov_presidential_democracy = {
+	rank = {
+		1 = PRESIDENTIALDEMOCRACY
+		2 = PRESIDENTIALDEMOCRACY
+		3 = PRESIDENTIALDEMOCRACY
+	}	
+	
+	ruler_male = {
+		1 = PRESIDENT
+		2 = PRESIDENT
+		3 = PRESIDENT
+	}
+	
+	ruler_female = {
+		1 = PRESIDENT
+		2 = PRESIDENT	
+		3 = PRESIDENT
+	}
+	
+	trigger = {
+		government = presidential_democracy
+	}
+}
+gov_presidential_democracy_fre = {
+	rank = {
+		1 = PRESIDENTIALDEMOCRACY
+		2 = PRESIDENTIALDEMOCRACY
+		3 = PRESIDENTIALDEMOCRACY
+	}	
+	
+	ruler_male = {
+		1 = PRESIDENT
+		2 = PRESIDENT
+		3 = PRESIDENT
+	}
+	
+	ruler_female = {
+		1 = PRESIDENT
+		2 = PRESIDENT	
+		3 = PRESIDENT
+	}
+	
+	trigger = {
+		government = daimyo
+		primary_culture = cosmopolitan_french
+	}
+}
+
+gov_prime_minister_democracy = {
+	rank = {
+		1 = PRIMEMINISTERDEMOCRACY
+		2 = PRIMEMINISTERDEMOCRACY
+		3 = PRIMEMINISTERDEMOCRACY
+	}	
+	
+	ruler_male = {
+		1 = PRIMEMINISTER
+		2 = PRIMEMINISTER
+		3 = PRIMEMINISTER
+	}
+	
+	ruler_female = {
+		1 = PRIMEMINISTER
+		2 = PRIMEMINISTER	
+		3 = PRIMEMINISTER
+	}
+	
+	trigger = {
+		government = prime_minister_democracy
+	}
+}
+
+
+default_monarchy = {
+	rank = {
+		1 = PRIMEMINISTERDEMOCRACY
+		2 = PRIMEMINISTERDEMOCRACY
+		3 = PRIMEMINISTERDEMOCRACY
+	}	
+	
+	ruler_male = {
+		1 = PRIMEMINISTER
+		2 = PRIMEMINISTER
+		3 = PRIMEMINISTER
+	}
+	
+	ruler_female = {
+		1 = PRIMEMINISTER
+		2 = PRIMEMINISTER	
+		3 = PRIMEMINISTER
+	}
+	
+	trigger = {
+		government = monarchy
+	}
+}
+
+default_republic = {
+	rank = {
+		1 = PRIMEMINISTERDEMOCRACY
+		2 = PRIMEMINISTERDEMOCRACY
+		3 = PRIMEMINISTERDEMOCRACY
+	}
+	
+	ruler_male = {
+		1 = PRIMEMINISTER
+		2 = PRIMEMINISTER
+		3 = PRIMEMINISTER
+	}
+	
+	ruler_female = {
+		1 = PRIMEMINISTER
+		2 = PRIMEMINISTER
+		3 = PRIMEMINISTER
+	}
+	
+	trigger = {
+		government = republic
+	}
+}
+
+default_theocracy = {
+	rank = {
+		1 = PRIMEMINISTERDEMOCRACY
+		2 = PRIMEMINISTERDEMOCRACY
+		3 = PRIMEMINISTERDEMOCRACY
+	}
+	
+	ruler_male = {
+		1 = PRIMEMINISTER
+		2 = PRIMEMINISTER
+		3 = PRIMEMINISTER
+	}
+	
+	ruler_female = {
+		1 = PRIMEMINISTER
+		2 = PRIMEMINISTER
+		3 = PRIMEMINISTER
+	}
+	
+	trigger = {
+		government = theocracy
+	}
+}
