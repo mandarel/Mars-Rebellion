@@ -1,5 +1,0 @@
-government = despotic_monarchy
-primary_culture = mon
-religion = buddhism
-technology_group = chinese
-capital = 586	# Pegu

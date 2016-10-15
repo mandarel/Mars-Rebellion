@@ -1,5 +1,0 @@
-government = despotic_monarchy
-technology_group = western
-primary_culture = mexican
-religion = catholic
-capital = 212	# Mexico

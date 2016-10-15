@@ -1,5 +1,0 @@
-government = feudal_monarchy
-primary_culture = jianghuai
-religion = confucianism
-technology_group = western
-capital = 365	# Beijing

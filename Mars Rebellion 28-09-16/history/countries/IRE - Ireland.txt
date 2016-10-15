@@ -1,5 +1,0 @@
-government = daimyo
-technology_group = western
-primary_culture = irish
-religion = catholic
-capital = 619	# Dublin

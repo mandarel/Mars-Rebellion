@@ -1,7 +1,0 @@
-government = celestial_empire
-government_rank = 3
-technology_group = western
-religion = confucianism
-primary_culture = jianghuai
-capital = 365	# Beijing
-elector = yes

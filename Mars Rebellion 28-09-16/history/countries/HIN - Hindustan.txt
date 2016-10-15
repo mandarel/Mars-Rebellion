@@ -1,6 +1,0 @@
-government = iqta
-technology_group = western
-religion = hinduism
-primary_culture = kannada
-capital = 522 # Delhi
-government_rank = 3

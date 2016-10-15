@@ -1,5 +1,0 @@
-government = despotic_monarchy
-technology_group = eastern
-primary_culture = sindhi
-religion = sunni
-capital = 303	# Sofia

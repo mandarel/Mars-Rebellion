@@ -1,5 +1,0 @@
-government = feudal_monarchy
-primary_culture = persian
-religion = shiite
-technology_group = western
-capital = 268	# Delhi

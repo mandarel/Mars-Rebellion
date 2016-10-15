@@ -1,9 +1,0 @@
-government = daimyo
-government_rank = 1
-primary_culture = lithuanian
-add_accepted_culture = polish
-religion = catholic
-technology_group = eastern
-historical_friend = POL
-capital = 272 # Vilnius
-

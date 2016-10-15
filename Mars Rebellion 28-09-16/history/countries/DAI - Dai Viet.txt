@@ -1,7 +1,0 @@
-government = despotic_monarchy
-primary_culture = vietnamese
-religion = mahayana
-technology_group = chinese
-capital = 613	# Hanoi
-
-# Tran Dynasty, Later Le Dynasty, Mac Dynasty and Tay Son Dynasty

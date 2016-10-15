@@ -1,6 +1,0 @@
-government = steppe_horde
-government_rank = 1
-technology_group = western
-religion = vajrayana
-primary_culture = mongol
-capital = 384

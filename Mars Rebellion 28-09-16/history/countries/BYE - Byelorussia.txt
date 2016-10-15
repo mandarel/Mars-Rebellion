@@ -1,5 +1,0 @@
-government = feudal_monarchy
-technology_group = eastern
-primary_culture = byelorussian
-religion = orthodox
-capital = 64	# Sofia

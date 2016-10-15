@@ -1,5 +1,0 @@
-government = daimyo
-technology_group = eastern
-primary_culture = bulgarian
-religion = orthodox
-capital = 150	# Sofia

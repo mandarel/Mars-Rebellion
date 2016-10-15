@@ -1,5 +1,0 @@
-government = iqta
-primary_culture = byelorussian
-religion = orthodox
-technology_group = western
-capital = 385 # Mecca# No previous file for Smolensk

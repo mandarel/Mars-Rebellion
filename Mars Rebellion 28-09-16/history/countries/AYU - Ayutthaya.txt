@@ -1,5 +1,0 @@
-government = despotic_monarchy
-primary_culture = central_thai
-religion = buddhism
-technology_group = chinese
-capital = 600 # Ayutthaya

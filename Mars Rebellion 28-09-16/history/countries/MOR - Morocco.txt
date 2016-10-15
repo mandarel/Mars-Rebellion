@@ -1,6 +1,0 @@
-government = iqta
-primary_culture = moroccan
-religion = sunni
-technology_group = muslim
-capital = 344 # Marrakech
-

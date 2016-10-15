@@ -1,8 +1,0 @@
-government = despotic_monarchy
-government_rank = 3
-primary_culture = ecuadorian
-religion = catholic
-technology_group = eastern
-historical_rival = BRZ
-capital = 191 # Quito
-
