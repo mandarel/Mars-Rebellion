@@ -1,0 +1,352 @@
+namespace = political_election
+
+country_event = {
+	id = political_election.1
+	title = political_election.1.t
+	desc = political_election.1.desc
+	picture = LIBERUM_VETO_eventPicture
+	
+		
+	trigger = {
+	OR = {
+		NOT = { has_country_flag  = election } 
+		
+		had_country_flag = { flag = election days = 1460}
+	}
+	NOT = { has_country_flag  = dictator_ascended } 
+    NOT = { has_country_flag  = autocracy_installed } 
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	immediate = {
+		hidden_effect = {
+			set_country_flag  = election
+			ROOT = { country_event = { id = political_election.1 days = 1460 }}
+		}
+	}	
+	option = {
+		name = political_election.1.a
+		define_ruler = {
+			dynasty = "(Socialist)" 
+			claim = 75
+			regency = no
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 50
+				dynasty = "(Socialist)"
+			}
+			modifier = {
+				factor = 4
+				dynasty = "(Autocracy)"
+			}
+			modifier = {
+				factor = 5
+				dynasty = "(Social-Democratic)"
+			}
+			modifier = {
+				factor = 5
+				dynasty = "(Conservative)"
+			}
+			modifier = {
+				factor = 4
+				dynasty = "(Dictatorship)"
+			}
+				modifier = {
+				factor = 5
+				dynasty = "(Liberal)"
+			}
+		}
+#		dykt	auto	lib	soci	sode	conser
+#dykt	85		5		2		4		2		2
+#auto	25		65		2		4		2		2
+#lib	0		5		50		5		20		20
+#soci	0		20		10		50		10		10
+#sode	0		5		20		5		50		20
+#conser	0		5		20		5		20		50
+
+		add_prestige = 1
+	}
+
+		option = {
+		name = political_election.1.c
+		define_ruler = {
+			dynasty = "(Social-Democratic)" 
+			claim = 75
+			regency = no
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 10
+				dynasty = "(Socialist)"
+			}
+			modifier = {
+				factor = 2
+				dynasty = "(Autocracy)"
+			}
+			modifier = {
+				factor = 50
+				dynasty = "(Social-Democratic)"
+			}
+			modifier = {
+				factor = 20
+				dynasty = "(Conservative)"
+			}
+			modifier = {
+				factor = 2
+				dynasty = "(Dictatorship)"
+			}
+				modifier = {
+				factor = 20
+				dynasty = "(Liberal)"
+			}
+
+		}
+		add_prestige = 1
+	}
+		option = {
+		name = political_election.1.d
+		define_ruler = {
+			dynasty = "(Conservative)" 
+			claim = 75
+			regency = no
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 10
+				dynasty = "(Socialist)"
+			}
+			modifier = {
+				factor = 2
+				dynasty = "(Autocracy)"
+			}
+			modifier = {
+				factor = 20
+				dynasty = "(Social-Democratic)"
+			}
+			modifier = {
+				factor = 50
+				dynasty = "(Conservative)"
+			}
+			modifier = {
+				factor = 2
+				dynasty = "(Dictatorship)"
+			}
+				modifier = {
+				factor = 20
+				dynasty = "(Liberal)"
+			}
+
+		
+		}
+		add_prestige = 1
+	}
+	
+			option = {
+		name = political_election.1.f
+		define_ruler = {
+			dynasty = "(Liberal)" 
+			claim = 75
+			regency = no
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 10
+				dynasty = "(Socialist)"
+			}
+			modifier = {
+				factor = 2
+				dynasty = "(Autocracy)"
+			}
+			modifier = {
+				factor = 20
+				dynasty = "(Social-Democratic)"
+			}
+			modifier = {
+				factor = 20
+				dynasty = "(Conservative)"
+			}
+			modifier = {
+				factor = 2
+				dynasty = "(Dictatorship)"
+			}
+				modifier = {
+				factor = 50
+				dynasty = "(Liberal)"
+			}
+		}
+		add_prestige = 1
+	}
+}
+country_event = {
+	id = political_election.2
+	title = political_election.2.t
+	desc = political_election.2.desc
+	picture = LIBERUM_VETO_eventPicture
+	
+		
+	trigger = {
+		NOT = { stability = -1 }
+		NOT = { has_country_flag =  dictator_ascended }
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	immediate = {
+
+	}
+	option = {
+		name = political_election.2.a	
+		define_ruler = {
+			dynasty = "(Dictatorship)" 
+			claim = 75
+			regency = no
+		}	
+		hidden_effect = {
+			clr_country_flag  = autocracy_installed		
+			set_country_flag  = dictator_ascended
+		}
+		add_prestige = -10
+		add_stability = 3
+	}
+	option = {
+		name = political_election.2.b	
+		add_stability = 1
+		add_prestige = 10
+		add_legitimacy = 10
+	}
+
+}
+country_event = {
+	id = political_election.3
+	title = political_election.3.t
+	desc = political_election.3.desc
+	picture = LIBERUM_VETO_eventPicture
+	
+		
+	trigger = {
+		NOT = { stability = -2 }
+		NOT = { has_country_flag =  dictator_ascended }
+		NOT = { has_country_flag =  autocracy_installed }
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	immediate = {
+
+	}
+	option = {
+		name = political_election.3.a	
+		define_ruler = {
+			dynasty = "(Autocracy)" 
+			claim = 75
+			regency = no
+		}		
+		hidden_effect = {	
+			set_country_flag  = autocracy_installed
+		}
+		add_prestige = 10
+		add_stability = 2
+	}
+	option = {
+		name = political_election.3.b	
+		add_stability = 1
+		add_prestige = 10
+		add_legitimacy = 10
+	}
+
+}
+country_event = {
+	id = political_election.4
+	title = political_election.4.t
+	desc = political_election.4.desc
+	picture = LIBERUM_VETO_eventPicture
+	
+		
+	trigger = {
+		NOT = { stability = -1 }
+		OR = { 
+		has_country_flag =  dictator_ascended 
+		has_country_flag =  autocracy_installed 
+		}
+	}
+	mean_time_to_happen = {
+		years = 10
+	}
+	immediate = {
+
+	}
+	option = {
+		name = political_election.4.a	
+		define_ruler = {
+			dynasty = "(Liberal)" 
+			claim = 75
+			regency = no
+		}
+		add_prestige = 10
+		add_stability = 2	
+		hidden_effect = {	
+			clr_country_flag  = autocracy_installed
+			clr_country_flag  = dictator_ascended
+		}
+	}
+		option = {
+		name = political_election.4.b	
+		add_stability = 1
+		add_prestige = 10
+		add_legitimacy = 10
+	}
+
+}
+country_event = {
+	id = political_election.5
+	title = political_election.5.t
+	desc = political_election.5.desc
+	picture = LIBERUM_VETO_eventPicture
+	
+		
+	trigger = {
+		has_heir = no
+		OR = { 
+		has_country_flag =  dictator_ascended 
+		has_country_flag =  autocracy_installed 
+		}
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	immediate = {
+		hidden_effect = {	
+		}
+	}
+	option = {
+		name = political_election.5.a	
+			if = {
+					limit = {
+					dynasty = "(Autocracy)" 
+					}	
+					define_heir = {
+						dynasty = "(Autocracy)" 
+						claim = 75
+			
+					}
+			}
+		
+			if = {
+					limit = {
+						dynasty = "(Dictatorship)"
+					}	
+					define_heir = {
+							dynasty = "(Dictatorship)"
+						claim = 75
+			
+					}				
+			}
+			add_prestige = -10
+}
+}

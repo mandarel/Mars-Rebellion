@@ -1,0 +1,177 @@
+namespace = political_aliances
+
+country_event = {  
+	id = political_aliances.1
+	title = political_aliances.1.t
+	desc = political_aliances.1.d
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		is_colonial_nation = no
+		religion = selfgovernance
+		capital_scope = {
+		is_reformation_center = no
+		}
+	}
+	mean_time_to_happen = {
+		years = 10
+	}
+	option = {
+	name = "political_aliances.001.a"
+	change_religion = shanghai_pact_sphere
+		capital_scope = {		
+			change_religion = shanghai_pact_sphere
+
+		}	
+}
+}
+country_event = {  
+	id = political_aliances.2
+	title = political_aliances.2.t
+	desc = political_aliances.2.d
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		is_colonial_nation = no
+		religion = selfgovernance
+				capital_scope = {
+		is_reformation_center = no
+		}
+
+	}
+	mean_time_to_happen = {
+		years = 10
+	}
+	option = {
+	name = "political_aliances.002.a"
+	change_religion = nato_sphere
+		capital_scope = {
+			change_religion = nato_sphere
+		}		
+}
+}
+country_event = {  
+	id = political_aliances.3
+	title = political_aliances.3.t
+	desc = political_aliances.3.d
+	picture = REFORM_eventPicture
+	
+	trigger = {
+			is_colonial_nation = no
+			is_elector = no
+	OR = {
+		religion = nato_sphere
+		religion = nato
+		religion = shanghai_pact
+		religion = shanghai_pact_sphere
+		}
+				capital_scope = {
+		is_reformation_center = no
+		}
+	}
+	mean_time_to_happen = {
+		years = 10
+	}
+	option = {
+	name = "political_aliances.003.a"
+		change_religion = selfgovernance
+		capital_scope = {
+			change_religion = selfgovernance
+	
+		}
+		add_country_modifier = {
+				name = "conversion_zeal_selfgovernance"
+				duration = 720
+		}
+				
+}
+}
+country_event = {  
+	id = political_aliances.4
+	title = political_aliances.4.t
+	desc = political_aliances.4.d
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		is_colonial_nation = no
+			OR = {
+		religion = nato_sphere
+		religion = nato
+		}
+		
+				capital_scope = {
+		is_reformation_center = no
+		}
+	}
+	mean_time_to_happen = {
+		years = 10
+	}
+	option = {
+	name = "political_aliances.004.a"
+change_religion = nato
+		capital_scope = {
+			change_religion = nato
+		}	
+}
+}
+country_event = {  
+	id = political_aliances.5
+	title = political_aliances.5.t
+	desc = political_aliances.5.d
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		is_colonial_nation = no
+	OR = {
+		religion = shanghai_pact
+		religion = shanghai_pact_sphere
+		}
+				capital_scope = {
+		is_reformation_center = no
+		}
+	}
+	mean_time_to_happen = {
+		years = 10
+	}
+	option = {
+	name = "political_aliances.005.a"
+change_religion = shanghai_pact
+		capital_scope = {
+			change_religion = shanghai_pact
+		}
+				
+}
+}
+country_event = {  
+	id = political_aliances.20
+	title = political_aliances.20.t
+	desc = political_aliances.20.d
+	picture = REFORM_eventPicture
+
+	trigger = {
+		is_colonial_nation = yes
+		NOT = { religion = free_luna }
+		capital_scope = { colonial_region = colonial_luna_surface }
+		is_year = 2010
+				capital_scope = {
+		is_reformation_center = no
+		}
+	}
+		mean_time_to_happen = {
+		years = 10
+	}
+	option = {
+	name = "political_aliances.020.a"
+		change_religion = free_luna
+		capital_scope = {
+			change_religion = free_luna
+	
+		}
+		add_country_modifier = {
+				name = "conversion_zeal_free_luna"
+				duration = 720
+		}
+        add_liberty_desire = 1000
+		
+}
+}

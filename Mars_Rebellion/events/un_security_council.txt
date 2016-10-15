@@ -1,0 +1,87 @@
+namespace = un_security_council
+
+country_event = {  
+	id = un_security_council.1
+	title = un_security_council.1.t
+	desc = un_security_council.1.d
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		is_elector = yes
+		OR = {
+		had_country_flag = { flag = un_security_council_granted days = 365}
+		NOT = { has_country_flag = un_security_council_granted  }
+		}
+		NOT = { has_country_flag = un_security_council_permanent_member  }
+		
+	}
+	mean_time_to_happen = {
+		years = 1
+	}
+	option = {
+	name = "un_security_council.001.a"
+	elector = no
+	set_country_flag = un_security_council_revoked
+	clr_country_flag = un_security_council_granted
+}
+}
+country_event = {  
+	id = un_security_council.2
+	title = un_security_council.2.t
+	desc = un_security_council.2.d
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		is_elector = no
+		OR = {
+		had_country_flag = { flag = un_security_council_revoked days = 365}
+		NOT = { has_country_flag = un_security_council_revoked  }
+		}
+		NOT = { has_country_flag = un_security_council_permanent_member  }
+		
+		NOT = { num_of_electors = 15 }
+	}
+	mean_time_to_happen = {
+		years = 1
+	}
+	option = {
+	name = "un_security_council.002.a"
+	elector = yes
+	set_country_flag  = un_security_council_granted
+	clr_country_flag = un_security_council_revoked
+}
+}
+country_event = {  
+	id = un_security_council.3
+	title = un_security_council.3.t
+	desc = un_security_council.3.d
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		is_elector = yes
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	fire_only_once = yes
+	option = {
+	name = "un_security_council.001.a"
+	elector = no
+	USA = {
+	set_country_flag  = un_security_council_permanent_member
+	}
+	RUS = {
+	set_country_flag  = un_security_council_permanent_member
+	}
+	CHI = {
+	set_country_flag  = un_security_council_permanent_member
+	}
+	GBR = {
+	set_country_flag  = un_security_council_permanent_member
+	}
+	FRA = {
+	set_country_flag  = un_security_council_permanent_member
+	}
+
+}
+}

@@ -1,0 +1,47 @@
+country_decisions = {
+
+	colonize_earth = {
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = built_earth_station }
+			NOT = { has_country_flag = building_earth_station }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+					total_development = 150
+					OR = {
+					is_subject = no
+					tag = FRA
+					tag = GBR
+					tag = GER
+					}
+				}
+			}
+			any_province = {
+				limit = {colonial_region = colonial_earth }
+				is_empty = yes
+			}
+
+		}
+		allow = {
+			adm_tech = 5
+		# Aberdeen
+		}
+		effect = {
+			add_years_of_income = -0.3
+			set_country_flag = building_earth_station 
+			ROOT = { country_event = { id = earth_colonisation.1 days = 100 }}
+		}	
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}
+
+

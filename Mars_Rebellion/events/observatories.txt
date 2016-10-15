@@ -1,0 +1,110 @@
+namespace = observatiories
+
+country_event = {
+	id = observatiories.1
+	title = observatiories.1.t
+	desc = observatiories.1.desc
+	picture = LIBERUM_VETO_eventPicture
+	
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			discover_province = 3
+			discover_province = 9
+			discover_province = 10
+			discover_province = 11
+			discover_province = 12
+			discover_province = 27
+			discover_province = 319
+			discover_province = 367
+			discover_province = 376
+			discover_province = 385
+		}
+	}
+	option = {
+		name = observatiories.1.a
+		
+		
+		add_prestige = 1
+	}
+}
+
+country_event = {
+	id = observatiories.2
+	title = observatiories.2.t
+	desc = observatiories.2.desc
+	picture = LIBERUM_VETO_eventPicture
+	
+	is_triggered_only = yes
+	immediate = {
+
+		hidden_effect = {	
+			discover_province = 13
+			discover_province = 187
+			discover_province = 189
+			discover_province = 232
+			discover_province = 237
+			discover_province = 245
+			discover_province = 615
+			discover_province = 616
+			discover_province = 617
+			discover_province = 618
+		}
+	}
+	option = {
+		name = observatiories.2.a	
+			add_prestige = 1
+	}
+}
+
+country_event = {
+	id = observatiories.3
+	title = observatiories.3.t
+	desc = observatiories.3.desc
+	picture = LIBERUM_VETO_eventPicture
+	
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			random_province = {
+					limit = { colonial_region = colonial_luna_surface is_empty = yes}
+			create_colony = 10
+			change_controller = ROOT
+			change_culture = ROOT 
+			
+		build_to_forcelimit = {
+		infantry = 0.3
+		}
+		add_colonysize = -210	
+	}	
+}
+	}
+	option = {
+		name = observatiories.3.a
+		define_conquistador = {
+			name = " Lunar rover"
+					fire = 0
+					shock = 0
+					manuever = 0
+					siege = 0
+			}
+
+		}
+	}
+
+
+country_event = {
+	id = observatiories.4
+	title = observatiories.4.t
+	desc = observatiories.4.desc
+	picture = LIBERUM_VETO_eventPicture
+	
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+		}
+	}
+	option = {
+		name = observatiories.4.a
+	}
+}
