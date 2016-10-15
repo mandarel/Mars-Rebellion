@@ -1,0 +1,5 @@
+government = presidential_democracy
+primary_culture = czech
+religion = european_union
+capital = 82 # Praha
+technology_group = western

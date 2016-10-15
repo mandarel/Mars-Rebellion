@@ -1,0 +1,5 @@
+government = despotic_monarchy 
+technology_group = western
+religion = selfgovernance
+primary_culture = tunisian
+capital = 119	# São Salvador# No previous file for Libya

@@ -1,0 +1,13 @@
+#Pontiac's Rebellion
+vassal = {
+	first = USA
+	second = CAN
+	start_date = 1940.1.1
+	end_date = 2200.1.1
+}
+vassal = {
+	first = USA
+	second = MEX
+	start_date = 1940.1.1
+	end_date = 2200.1.1
+}

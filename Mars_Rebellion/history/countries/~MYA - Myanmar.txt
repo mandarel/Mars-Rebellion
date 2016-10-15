@@ -1,0 +1,7 @@
+# No previous file for Myanmar
+government = feudal_monarchy
+primary_culture = burmese
+religion = buddhism
+technology_group = western
+capital = 311 
+national_focus = MIL

@@ -1,0 +1,6 @@
+government = presidential_democracy
+technology_group = western
+religion = nato_sphere
+primary_culture = argentinan
+capital = 174	# Buenos Aires
+

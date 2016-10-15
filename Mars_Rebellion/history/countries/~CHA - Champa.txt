@@ -1,0 +1,5 @@
+government = despotic_monarchy
+primary_culture = tuareg
+religion = catholic
+technology_group = western
+capital = 129	# No previous file for Champa

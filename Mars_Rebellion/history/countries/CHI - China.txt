@@ -1,0 +1,6 @@
+government = presidential_democracy
+primary_culture = jianghuai
+religion = shanghai_pact
+technology_group = western
+capital = 365	# Beijing
+elector = yes

@@ -1,0 +1,5 @@
+government = despotic_monarchy
+primary_culture = somali
+religion = selfgovernance
+technology_group = western
+capital = 148

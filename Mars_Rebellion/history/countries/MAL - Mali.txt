@@ -1,0 +1,10 @@
+government = despotic_monarchy
+primary_culture = mali
+religion = selfgovernance
+technology_group = western
+capital = 132	# Niani
+
+
+
+
+

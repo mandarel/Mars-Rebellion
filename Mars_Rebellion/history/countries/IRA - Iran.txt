@@ -1,0 +1,5 @@
+government = presidential_democracy
+primary_culture = persian
+religion = shanghai_pact
+technology_group = western
+capital = 268	# Delhi

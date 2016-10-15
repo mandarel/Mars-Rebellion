@@ -1,0 +1,6 @@
+government = daimyo
+primary_culture = hungarian
+religion = european_union
+technology_group = eastern
+capital = 153 # Buda
+historical_friend = HAB

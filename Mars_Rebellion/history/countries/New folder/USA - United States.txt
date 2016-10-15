@@ -1,0 +1,15 @@
+government = despotic_monarchy
+technology_group = western
+primary_culture = american
+religion = protestant
+capital = 250# New York
+elector = yes
+
+1817.3.4  = {
+	monarch = {
+		name = "James Monroe"
+		adm = 6	
+		dip = 5	
+		mil = 3
+	}
+}

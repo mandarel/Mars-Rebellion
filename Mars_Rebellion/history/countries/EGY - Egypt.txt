@@ -1,0 +1,5 @@
+government = presidential_democracy
+primary_culture = al_misr_arabic
+religion = selfgovernance
+technology_group = muslim
+capital = 120 # Cairo

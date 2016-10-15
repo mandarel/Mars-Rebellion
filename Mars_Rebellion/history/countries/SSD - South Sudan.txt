@@ -1,0 +1,5 @@
+government = despotic_monarchy
+primary_culture = nubian
+religion = selfgovernance
+technology_group = western
+capital = 140	# No previous file for South Sudan

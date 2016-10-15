@@ -1,0 +1,6 @@
+# No previous file for Burkina Faso
+government = despotic_monarchy
+primary_culture = senegambian
+religion = selfgovernance
+technology_group = western
+capital = 137	

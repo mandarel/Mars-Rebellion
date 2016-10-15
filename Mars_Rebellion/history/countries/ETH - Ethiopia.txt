@@ -1,0 +1,8 @@
+government = despotic_monarchy
+primary_culture = amhara
+religion = selfgovernance
+technology_group = western
+capital = 146		# Gonder
+elector = yes
+
+

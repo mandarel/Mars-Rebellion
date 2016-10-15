@@ -1,0 +1,7 @@
+government = despotic_monarchy
+government_rank = 3
+primary_culture = chilean
+religion = nato_sphere
+technology_group = western
+capital = 179	# Santiago
+

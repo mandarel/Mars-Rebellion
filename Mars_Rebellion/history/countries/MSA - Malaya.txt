@@ -1,0 +1,5 @@
+government = despotic_monarchy 
+technology_group = western
+religion = selfgovernance
+primary_culture = sumatran
+capital = 622	# São Salvador# No previous file for Malaya

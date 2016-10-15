@@ -1,0 +1,7 @@
+government = shogunate
+government_rank = 3
+primary_culture = flemish
+religion = catholic
+technology_group = western
+unit_type = western
+capital = 162	

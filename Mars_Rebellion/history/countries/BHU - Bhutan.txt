@@ -1,0 +1,7 @@
+government = theocratic_government
+technology_group = wester
+religion = selfgovernance
+primary_culture = tibetan
+capital = 644	# Thimphu
+
+#Independent from Tibet 1616

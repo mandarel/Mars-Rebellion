@@ -1,0 +1,6 @@
+government = iqta
+primary_culture = moroccan
+religion = selfgovernance
+technology_group = muslim
+capital = 106 # Marrakech
+

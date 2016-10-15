@@ -1,0 +1,6 @@
+government = feudal_monarchy
+primary_culture = serbian
+religion = shanghai_pact_sphere
+technology_group = eastern
+capital = 141	# Beograd
+historical_friend = BOS

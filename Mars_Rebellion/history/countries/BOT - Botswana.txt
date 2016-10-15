@@ -1,0 +1,5 @@
+government = despotic_monarchy
+primary_culture = khoisan
+religion = selfgovernance
+technology_group = western
+capital = 164	

@@ -1,0 +1,6 @@
+# No previous file for Zambia
+government = despotic_monarchy
+primary_culture = mbundu
+religion = selfgovernance
+technology_group = western
+capital = 150	

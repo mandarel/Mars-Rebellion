@@ -1,0 +1,6 @@
+government = iqta 
+technology_group = muslim
+religion = selfgovernance
+primary_culture = algerian
+capital = 108 # Al-Djazair
+

@@ -1,0 +1,6 @@
+government = despotic_monarchy
+primary_culture = aka
+religion = selfgovernance
+technology_group = western
+capital = 136	# No previous file for Nigeria
+elector = yes

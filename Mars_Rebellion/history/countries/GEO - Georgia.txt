@@ -1,0 +1,5 @@
+government = despotic_monarchy
+primary_culture = georgian
+religion = shanghai_pact_sphere
+technology_group = eastern
+capital = 423 # T'bilisi

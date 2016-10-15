@@ -1,0 +1,5 @@
+government = iqta
+technology_group = eastern
+primary_culture = israeli
+religion = selfgovernance
+capital = 645	# Sofia

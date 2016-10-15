@@ -1,0 +1,16 @@
+government = presidential_democracy
+technology_group = western
+primary_culture = american
+religion = nato
+capital = 250# New York
+elector = yes
+
+2009.1.1 = {
+	monarch = {
+		name = "Barack Obama"
+		dynasty = "Liberal"
+		ADM = 4
+		DIP = 6
+		MIL = 4
+	}
+}

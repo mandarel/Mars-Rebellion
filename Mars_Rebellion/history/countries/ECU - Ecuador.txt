@@ -1,0 +1,7 @@
+government = despotic_monarchy
+primary_culture = ecuadorian
+religion = nato_sphere
+technology_group = eastern
+historical_rival = BRZ
+capital = 191 # Quito
+

@@ -1,0 +1,5 @@
+government = daimyo
+technology_group = eastern
+religion = european_union
+primary_culture = latvian
+capital = 54

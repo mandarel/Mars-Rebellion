@@ -1,0 +1,23 @@
+government = daimyo
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 183 # Paris
+national_focus = DIP
+historical_rival = HAB
+
+
+1814.4.11 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles X"
+		dynasty = "de Bourbon"
+		birth_date = 1757.10.9
+		death_date = 1836.11.6
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+# No previous file for Liege

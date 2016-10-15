@@ -1,0 +1,6 @@
+government = republican_dictatorship
+technology_group = western
+religion = selfgovernance
+primary_culture = nguni
+capital = 158	# Santa María del Buen Ayre
+# No previous file for Zimbabwe

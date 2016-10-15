@@ -1,0 +1,22 @@
+government = feudal_monarchy
+primary_culture = russian
+religion = orthodox
+technology_group = western
+unit_type = eastern
+capital = 282 # Moskva
+government_rank = 3
+elector = yes
+
+1801.3.13 = {
+	heir = {
+		name = "Nikolaj"
+		monarch_name = "Nikolaj I"
+		dynasty = "Romanov"
+		birth_date = 1796.7.6
+		death_date = 1855.3.2
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

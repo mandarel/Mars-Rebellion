@@ -1,0 +1,17 @@
+government = daimyo
+primary_culture = cosmopolitan_french
+religion = european_union
+technology_group = western
+capital = 183 # Paris
+national_focus = DIP
+historical_rival = HAB
+elector = yes
+2009.1.1 = {
+	monarch = {
+		name = "Nicholas Sarkozy"
+		dynasty = "Conservative"
+		ADM = 4
+		DIP = 6
+		MIL = 4
+	}
+}

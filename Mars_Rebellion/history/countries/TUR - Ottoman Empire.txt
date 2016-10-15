@@ -1,0 +1,17 @@
+government = presidential_democracy
+primary_culture = turkish
+religion = nato
+technology_group = western
+capital = 266 # Ankara
+national_focus = MIL
+elector = yes
+
+2009.1.1 = {
+	monarch = {
+		name = "Recep Erdogan"
+		dynasty = "Conservative"
+		ADM = 4
+		DIP = 6
+		MIL = 4
+	}
+}

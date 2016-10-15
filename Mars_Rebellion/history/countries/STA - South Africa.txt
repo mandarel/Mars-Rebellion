@@ -1,0 +1,5 @@
+government = presidential_democracy
+primary_culture = nguni
+religion = selfgovernance
+technology_group = western
+capital = 161	# Johannesburg

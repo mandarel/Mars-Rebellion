@@ -1,0 +1,5 @@
+government = iqta
+primary_culture = bedouin_arabic
+religion = selfgovernance
+technology_group = muslim
+capital = 255 # Mecca# No previous file for Yemen

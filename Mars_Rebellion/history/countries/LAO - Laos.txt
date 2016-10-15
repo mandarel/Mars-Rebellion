@@ -1,0 +1,5 @@
+government = presidential_democracy
+technology_group = eastern
+primary_culture = bulgarian
+religion = shanghai_pact_sphere
+capital = 150	# Sofia

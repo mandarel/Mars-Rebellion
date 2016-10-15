@@ -1,0 +1,5 @@
+government = daimyo
+primary_culture = romanian
+religion = european_union
+technology_group = eastern
+capital = 161	# Tîrgoviste

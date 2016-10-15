@@ -1,0 +1,5 @@
+government = despotic_monarchy
+primary_culture = mozambique
+religion = selfgovernance
+technology_group = western
+capital = 160	# No previous file for Mozambique

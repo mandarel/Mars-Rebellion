@@ -1,0 +1,9 @@
+government = daimyo
+primary_culture = portugese
+religion = european_union
+technology_group = western
+historical_friend = SPA
+historical_friend = CAS
+capital = 84 # Lisboa
+
+

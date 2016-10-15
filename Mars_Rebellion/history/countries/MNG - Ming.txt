@@ -1,0 +1,6 @@
+government = celestial_empire
+government_rank = 3
+technology_group = western
+religion = selfgovernance
+primary_culture = jianghuai
+capital = 630	# Taiwan

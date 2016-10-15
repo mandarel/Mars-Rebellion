@@ -1,0 +1,15 @@
+government = daimyo
+technology_group = western
+primary_culture = english
+religion = european_union
+capital = 98	# London
+elector = yes
+2009.1.1 = {
+	monarch = {
+		name = "Gordon Brown"
+		dynasty = "Social-Democratic"
+		ADM = 4
+		DIP = 6
+		MIL = 4
+	}
+}

@@ -1,0 +1,8 @@
+# No previous file for Burkina Faso
+government = despotic_monarchy
+government_rank = 3
+primary_culture = amhara
+religion = catholic
+technology_group = western
+unit_type = western
+capital = 162	

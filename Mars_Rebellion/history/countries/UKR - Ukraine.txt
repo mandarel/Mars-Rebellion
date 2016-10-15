@@ -1,0 +1,5 @@
+government = feudal_monarchy
+technology_group = eastern
+religion = shanghai_pact
+primary_culture = ruthenian
+capital = 66	# Kiev

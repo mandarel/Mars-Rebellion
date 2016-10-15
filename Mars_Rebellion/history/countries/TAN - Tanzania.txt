@@ -1,0 +1,5 @@
+government = despotic_monarchy
+primary_culture = swahili
+religion = shanghai_pact_sphere
+technology_group = western
+capital = 152	# No previous file for Tanzania

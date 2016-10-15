@@ -1,0 +1,6 @@
+government = iqta
+primary_culture = al_suryah_arabic
+religion = shanghai_pact
+technology_group = muslim
+capital = 262	# Damascus
+elector = yes

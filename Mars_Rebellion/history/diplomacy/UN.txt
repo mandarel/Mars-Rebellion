@@ -1,0 +1,4 @@
+2009.8.16 = { emperor = RUS }
+1648.10.24 = {
+	set_hre_religion_treaty = yes
+}

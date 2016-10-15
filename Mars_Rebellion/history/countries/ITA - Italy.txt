@@ -1,0 +1,5 @@
+government = daimyo
+technology_group = western
+religion = european_union
+primary_culture = lombard
+capital = 118		# Roma

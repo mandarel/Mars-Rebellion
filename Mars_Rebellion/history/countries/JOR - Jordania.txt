@@ -1,0 +1,5 @@
+government = iqta
+technology_group = eastern
+primary_culture = al_suryah_arabic
+religion = selfgovernance
+capital = 646	# Sofia

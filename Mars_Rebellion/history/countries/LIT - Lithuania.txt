@@ -1,0 +1,7 @@
+government = daimyo
+primary_culture = lithuanian
+religion = european_union
+technology_group = eastern
+historical_friend = POL
+capital = 56 # Vilnius
+

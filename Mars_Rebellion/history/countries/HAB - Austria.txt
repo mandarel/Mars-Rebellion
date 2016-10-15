@@ -1,0 +1,7 @@
+government = daimyo
+primary_culture = austrian
+religion = european_union
+technology_group = western
+capital = 80 # Wien
+national_focus = ADM
+elector = yes

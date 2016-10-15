@@ -1,0 +1,18 @@
+government = presidential_democracy
+primary_culture = russian
+religion = shanghai_pact
+technology_group = western
+unit_type = eastern
+capital = 282 # Moskva
+government_rank = 3
+elector = yes
+
+2009.1.1 = {
+	monarch = {
+		name = "Vladimir Putin"
+		dynasty = "Autocracy"
+		ADM = 4
+		DIP = 6
+		MIL = 4
+	}
+}

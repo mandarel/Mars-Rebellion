@@ -1,0 +1,7 @@
+government = presidential_democracy
+primary_culture = rajput
+religion = selfgovernance
+technology_group = western
+capital = 305	# Delhi
+
+

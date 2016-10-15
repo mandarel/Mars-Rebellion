@@ -1,0 +1,6 @@
+government = despotic_monarchy
+primary_culture = amhara
+religion = selfgovernance
+technology_group = western
+unit_type = western
+capital = 151	# No previous file for Kenya
