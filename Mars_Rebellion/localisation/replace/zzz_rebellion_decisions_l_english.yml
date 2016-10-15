@@ -1,0 +1,11 @@
+﻿l_english:
+ colonize_earth_title:0 "Construct an Earth Space Port"
+ colonize_earth_desc:0 "In order to colonise the Mars we need a staging ground. "
+ create_leo_telescope_title:0 "Construct a LEO Observatory"
+ create_leo_telescope_desc:0 "In order to know what is going up our heads our scientist have proposed a system of telescopes, radars and satelites scanning the neighbourhood of Earth "
+ create_luna_telescope_title:0 "Prepare a lunar reconnaisance probe"
+ create_luna_telescope_desc:0 " If we are to explore the Moon we need maps of our only natural satelite. "
+ create_luna_surface_observatory_title:0 "Send a Lunar Rover"
+ create_luna_surface_observatory_desc:0 "After making spectrographic HR images of mineral deposits on Moon we are preparing a land mission that would confirm those findings."
+ create_venus_atmosphere_observatory_title:0 "A Venus space mission"
+ create_venus_atmosphere_observatory_desc:0 "Venus has a very dense atmosphere. That lead our scientist to investigate the possibility of high atmospheric floating bases. We are sending our probes to get better images. "

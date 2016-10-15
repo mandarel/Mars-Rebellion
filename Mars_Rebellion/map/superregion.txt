@@ -1,0 +1,10 @@
+# A region can only belong to one super region.
+
+
+europe_superregion = {
+west_europe_region 
+scandinavia_region 
+east_europe_region 
+balkans_region 
+}
+

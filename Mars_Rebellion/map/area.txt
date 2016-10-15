@@ -1,0 +1,286 @@
+western_mediterrenean_area = {
+	1293 1294 1295 1296 1297 1298 1300 1301 1302 1303 1304 1305 1307
+}
+#################################
+#####           SPACE area
+######################################	
+mercury_area = {
+	1
+}
+venus_area = {
+	2
+}
+earth_area = {
+	3 9 10 11 12 27 319 367 376 385 
+}
+luna_area = {
+	13 187 189 232 237 245 615 616 617 618
+}
+mars_area = {
+	4 14 15 16 17
+}
+jupiter_area = {
+	5
+}
+saturn_area = {
+	6 18 19
+}
+uran_area = {
+	7 20 21
+}
+neptun_area = {
+	8 22
+}	
+
+
+#################################
+#####           EUROPE
+######################################	
+france_area = {
+	89 90 91 92 94
+}
+
+germany_area = {
+	31 80 81 83 95 96
+}
+italy_area = {
+	72 73 74 75
+}
+britain_area = {
+	26 98 99 100 101 102 103 104 619
+}
+
+	sweden_area = { 
+	33 34 35 36 37 38 39 40 41 42 46
+	}
+	denmark_area = {
+	29 30 34
+	}
+	finland_area = {
+	47 48 49 50 
+	}
+	norway_area = {
+	 43 44 45 653 
+	}
+	west_slavic_area = {
+	59 60 61 62 63 82 652
+	}
+	
+	south_slavic_area = {
+	70 71 76 77 78
+	650 651
+	}
+	ukraine = {
+	65 66 275 276
+	}
+	belarus = {
+	58 64
+	}
+	pribaltica_area = {
+	51 52 53 54 55 56 57 
+	}
+	spain_area = {
+	84 85 86 87 88 
+	}
+	benelux_area = {
+	93 97
+	}
+	hungary_romania_area = {
+	67 68 69 79 
+	}
+
+#################################
+#####           NORTH AMERICA
+######################################	
+latin_america_area = {
+	202 203 204 205 206 207
+}
+south_mexico_area = {
+	208 209 210 211 212 213
+}
+north_mexico_area = {
+	214 215 216 217 218 219
+}
+west_coast_north_america_area = {
+	220 222 229 231 233
+}
+east_coast_north_america_area = {
+	24 246 248 249 250  251 252 253 254
+}
+canada_interior_area = {
+	234 235 236 238 243 
+}
+east_america_interior_area = {
+	226 228 240 241 242 244 247
+}
+central_north_america_interior_area = {
+	221 223 224 225 227 230 239
+}
+
+
+#################################
+#####           SOUTH AMERICA
+######################################	
+argentina_area = {
+	174 175 176 180 181
+}
+colombian_area = {
+	191 195 197 
+}
+peru_area = {
+	188 190
+}
+chile_area = {
+	177 178 179 182 185
+}
+guyana_area = {
+	199 200 201
+}
+amazon_area = {
+	25 192 193
+}
+venezuela_area = {
+	196 198
+}
+central_south_america_area = {
+	183 184
+}
+brazil_coast_area = {
+	165 166 167 170 171 172 173 194
+	
+}
+brazil_interior_area = {
+	168 169 186
+}
+caribbean_area = {
+	620 621
+}
+#################################
+#####           AFRCIA
+######################################	
+egypt_area = {
+	121 122 120
+}
+maghreb_area = {
+	105 106 107 108 109 110 111 112 115 117 118 119
+}
+niger_area = {
+	134 135 136 137 138 139
+}
+
+guinea_area = {
+	113 114 116 130 131 132 133 
+}
+sahel_area = {
+	123 124 125 126 127 128 129 140 
+}
+
+horn_of_africa_area = {
+	145 146 147 148
+}
+east_africa_area = {
+	151 152 153 155 641 
+}	
+central_africa_area = {
+	141 142 143 144 
+}
+kongo_area = {
+	149 150 154 156 164
+}
+south_africa_area = {
+	28 157 158 159 160 161 162 163
+}
+#################################
+#####           OCEANIA
+######################################
+australia_area = {
+	635 636 637 638 639 640
+}
+#################################
+#####           ASIA
+######################################	
+	india_area = {
+	304 305 306 307 308 309 321 642
+	}
+	japan_area = {
+	 624 625 626 627 628 629
+	}
+	ural_area = {
+	280 287 288 289 290 291 292 293 294
+} 
+anatolia_area = {
+	264 265 266
+}
+persia_area = {
+	267 268 270 271
+}
+pakistani_area = {
+	302 303
+}
+caucasia_area = {
+	269 274 277 647 648 649
+}
+arabia_area = {
+	255 256 257 258 259 260 261
+}
+central_asia_area = {
+	272 273 285 286 299 300
+}
+west_siberia_area = {
+	295 296 297 298  333 334 335
+}
+central_siberia_area = {
+	336 337 338 339 340 351 352 382 383 
+}
+east_siberia_area = {
+	341 342 343 344 345 346 347 350 353 354
+}
+mongolia_area = {
+	332 373 374  375 377 381 384 386
+}
+
+manchuria_area = {
+	348 349 355 356 357 358 359 360 380 
+}
+
+tibet_area = {
+	318 320 643 644
+}
+
+bengal_area = {
+	310
+}
+south_east_asia_area = {
+	311 312 313 314 315 316 317 
+}
+indonesia_area = {
+	622 623 631 632 633 634
+}
+korea_area = {
+	361 362
+}
+beijing_area = {
+	363 364 365 366 378 379
+}
+china_coast_area = {
+	324 327 328 330 630
+}
+china_interior_area = {
+	368 322 323 325 326 329 
+}
+sinkiang_area = {
+	301 331 369 370 371 372
+}
+russia_area = {
+	278 279 281 282 283 284
+}
+mashriq_area = {
+	262 263 645 646 
+}
+#################################
+#####           LUNA
+######################################	
+
+	south_middle_polar_luna_area = {
+	459 461 463 464 
+}
