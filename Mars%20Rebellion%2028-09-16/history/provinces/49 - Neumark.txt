@@ -1,0 +1,22 @@
+#49 - Neumark
+
+owner = FIN
+controller = FIN
+add_core = FIN
+culture = finnish
+religion = nato_sphere
+hre = yes
+base_tax = 3 
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+capital = "Landsberg"
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
