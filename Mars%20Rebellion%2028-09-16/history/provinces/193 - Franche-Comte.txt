@@ -1,0 +1,23 @@
+# 193 Franche-Comté - Principal cities: Besançon
+
+owner = BRZ
+controller = BRZ 
+capital = "Besançon"
+is_city = yes
+culture = brazillian
+religion = nato_sphere
+hre = yes
+base_tax = 5 
+base_production = 5
+trade_goods = salt
+base_manpower = 4
+add_core = BRZ
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1536.1.1 = { religion = nato_sphere reformation_center = nato_sphere }
