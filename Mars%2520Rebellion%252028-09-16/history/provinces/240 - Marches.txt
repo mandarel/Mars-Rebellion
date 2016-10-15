@@ -1,0 +1,24 @@
+#240 - Marches
+#Shropshire, Herefordshire, Worcestershire, Staffordshire, Warwickshire
+
+owner = USA
+controller = USA
+culture = american
+religion = nato
+hre = yes
+base_tax = 4
+base_production = 4
+trade_goods = cloth
+base_manpower = 3
+capital = "Coventry"
+is_city = yes
+fort_15th = yes
+add_core = USA
+
+
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
