@@ -1,6 +1,0 @@
-government = iqta
-technology_group = muslim
-religion = sunni
-primary_culture = afghani
-capital = 447	# Kandahar
-

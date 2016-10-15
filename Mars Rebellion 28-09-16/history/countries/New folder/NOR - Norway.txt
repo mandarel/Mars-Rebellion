@@ -1,6 +1,0 @@
-government = daimyo
-primary_culture = norwegian
-religion = catholic
-technology_group = western
-historical_friend = DAN
-capital = 17 #Akershus

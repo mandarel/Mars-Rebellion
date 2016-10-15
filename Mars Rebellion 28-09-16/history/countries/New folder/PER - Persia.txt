@@ -1,6 +1,0 @@
-government = iqta
-primary_culture = persian
-religion = shiite
-technology_group = western
-capital = 416 # Tabriz
-

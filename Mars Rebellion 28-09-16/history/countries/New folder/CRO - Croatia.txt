@@ -1,6 +1,0 @@
-government = daimyo
-primary_culture = croatian
-religion = catholic
-technology_group = eastern
-capital = 131	# Zagreb
-

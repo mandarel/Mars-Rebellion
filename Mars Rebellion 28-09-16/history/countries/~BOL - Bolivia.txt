@@ -1,5 +1,0 @@
-government = despotic_monarchy 
-technology_group = western
-religion = catholic
-primary_culture = portugese
-capital = 168	# São Salvador# No previous file for Bolivia

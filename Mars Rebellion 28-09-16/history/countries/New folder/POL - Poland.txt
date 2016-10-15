@@ -1,8 +1,0 @@
-government = daimyo
-primary_culture = polish
-religion = catholic
-technology_group = eastern
-historical_rival = RUS
-capital = 62 # Krakow
-
-national_focus = ADM

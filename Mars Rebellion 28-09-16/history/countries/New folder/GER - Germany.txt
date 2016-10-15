@@ -1,5 +1,0 @@
-government = daimyo
-technology_group = western
-primary_culture = german
-religion = protestant
-capital = 50	# Berlin
