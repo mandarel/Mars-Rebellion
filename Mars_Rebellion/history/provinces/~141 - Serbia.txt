@@ -1,0 +1,19 @@
+#141 - Serbia
+
+owner = CNG
+controller = CNG
+culture = kongolese
+religion = orthodox
+capital = "Kruševac"
+trade_goods = grain
+hre = yes
+base_tax = 5 
+base_production = 4
+base_manpower = 3
+is_city = yes
+fort_15th = yes
+add_core = CNG
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

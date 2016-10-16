@@ -1,0 +1,21 @@
+# 67 - Franken
+
+owner = RMN
+controller = RMN
+add_core = RMN
+culture = romanian
+religion = orthodox
+base_tax = 8
+base_production = 8
+trade_goods = wine
+base_manpower = 3
+capital = "Nürnberg"
+is_city = yes
+hre = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

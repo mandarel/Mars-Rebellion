@@ -1,0 +1,24 @@
+#229 - Alentejo
+
+owner = USA
+controller = USA
+culture = portugese
+religion = catholic
+capital = "Évora"
+trade_goods = fish
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = USA
+#fort_15th = yes
+
+
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+

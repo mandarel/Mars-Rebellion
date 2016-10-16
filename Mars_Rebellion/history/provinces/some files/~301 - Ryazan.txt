@@ -1,0 +1,20 @@
+#301 - Ryazan
+
+owner = MNG
+controller = MNG   
+culture = ryazanian
+religion = orthodox
+hre = no
+base_tax = 8
+base_production = 8
+trade_goods = wool
+base_manpower = 6
+capital = "Pereyaslavl-Ryazansky"
+is_city = yes
+fort_15th = yes
+add_core = MNG
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group

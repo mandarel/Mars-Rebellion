@@ -1,0 +1,21 @@
+#152 - Belovár
+
+owner = TAN
+controller = TAN
+culture = swahili
+religion = catholic
+capital = "Varazdin"
+trade_goods = cloth
+hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 1
+is_city = yes
+add_core = TAN
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+
+

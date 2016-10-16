@@ -1,0 +1,23 @@
+#221 - Murcia
+
+owner = USA		# Juan II of Castille
+controller = USA
+add_core = USA
+culture = american
+religion = catholic 
+hre = yes
+base_tax = 5 
+base_production = 4 
+trade_goods = grain 
+base_manpower = 5
+capital = "Cartagena" 
+estate = estate_burghers
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+

@@ -21,5 +21,3 @@ discovered_by = chinese
 discovered_by = sub_saharan
 discovered_by = western
 
-
-1536.1.1 = { religion = nato_sphere reformation_center = nato_sphere }

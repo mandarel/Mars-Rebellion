@@ -14,5 +14,3 @@ is_city = yes
 add_core = KHM
 discovered_by = eastern
 discovered_by = western
-
-1536.1.1 = { religion = shanghai_pact_sphere reformation_center = shanghai_pact_sphere }

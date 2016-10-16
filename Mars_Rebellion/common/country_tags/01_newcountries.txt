@@ -39,3 +39,6 @@ IRA = "countries/Iran.txt"
 SRI = "countries/Sri Lanka.txt"
 CHI = "countries/China.txt"
 SKR	= "countries/SouthKorea.txt"
+
+
+AUN = "countries/African Union.txt"

@@ -1,0 +1,22 @@
+owner = JAP
+controller = JAP
+add_core = JAP
+capital = "Praha"
+culture = japanese
+religion = shinto
+trade_goods = cloth 
+hre = yes
+base_tax = 40 
+base_production = 40
+base_manpower = 5
+is_city = yes
+fort_15th = yes
+
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = indian
+discovered_by = east_african
+discovered_by = south_american
+discovered_by = chinese
+discovered_by = sub_saharan
+discovered_by = western

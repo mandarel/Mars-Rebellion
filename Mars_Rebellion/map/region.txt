@@ -190,6 +190,52 @@ central_america_region = {
 south_lunar_polar_region = {
 	areas = {
 		south_middle_polar_luna_area
+		south_middle_west_polar_luna_area
+		south_west_polar_luna_area
+		south_middle_east_polar_luna_area
+		south_east_polar_luna_area
+		
+		}
+}
+south_lunar_crater_region = {
+	areas = {
+		south_east_crater_luna_area
+		south_middle_east_crater_luna_area
+		south_middle_e_crater_luna_area
+		south_middle_w_crater_luna_area
+		south_middle_west_crater_luna_area
+		south_west_crater_luna_area
+		
+		}
+}
+north_lunar_crater_region = {
+	areas = {
+		north_east_crater_luna_area
+		north_middle_east_crater_luna_area
+		north_middle_e_crater_luna_area
+		north_middle_w_crater_luna_area
+		north_middle_west_crater_luna_area
+		north_west_crater_luna_area
+		north_central_crater_luna_area
+		}
+}
+north_lunar_polar_region = {
+	areas = {
+		north_west_polar_luna_area
+		north_middle_west_polar_luna_area
+		north_middle_polar_luna_area
+		north_middle_east_polar_luna_area
+		north_east_polar_luna_area
+		}
+}
+central_lunar_polar_region = {
+	areas = {
+		central_east_crater_lunar_area
+		central_middle_crater_lunar_area
+		central_west_crater_lunar_area
+		
 		}
 }
 
+
+	

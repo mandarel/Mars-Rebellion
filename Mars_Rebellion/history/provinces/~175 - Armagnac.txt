@@ -1,0 +1,24 @@
+# 175 Armagnac - Principal cities: Auch
+
+owner = LAP
+controller = LAP
+capital = "Auch"
+is_city = yes
+culture = argentinan
+religion = catholic
+hre = yes
+base_tax = 5 
+base_production = 5
+trade_goods = wool
+base_manpower = 5
+add_local_autonomy = 25
+estate = estate_nobles
+add_core = LAP
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+

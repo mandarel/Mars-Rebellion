@@ -19,5 +19,3 @@ discovered_by = ottoman
 
 
 
-
-1536.1.1 = { religion = shanghai_pact_sphere reformation_center = shanghai_pact_sphere }

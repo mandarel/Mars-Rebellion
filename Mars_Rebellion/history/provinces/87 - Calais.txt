@@ -21,5 +21,3 @@ discovered_by = ottoman
 
 fort_15th = yes
 is_city = yes
-
-1536.1.1 = { religion = nato reformation_center = nato }

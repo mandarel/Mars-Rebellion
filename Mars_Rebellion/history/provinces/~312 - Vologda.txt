@@ -1,0 +1,19 @@
+#312 - Beloozero
+
+owner = AYU
+controller = AYU
+culture = central_thai
+religion = buddhism
+hre = yes
+base_tax = 4
+base_production = 4
+trade_goods = naval_supplies 
+base_manpower = 3
+capital = "Beloozero"
+is_city = yes
+add_core = AYU
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
