@@ -1,0 +1,73 @@
+country_decisions = {
+
+	byzantines_formation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			#NOT = { exists = BHA }
+			NOT = { exists = BYZ }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 4
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				primary_culture = greek
+			}
+			
+		}
+		allow = {
+			
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 71 #greece
+			owns_core_province = 264 #istanbul
+		}
+		effect = {
+			set_government_rank = 3
+			change_tag = BYZ
+			balkans_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BYZ
+			}
+			arabia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BYZ
+			}
+			north_africa_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BYZ
+			}
+			add_prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+}	
+
+

@@ -55,7 +55,7 @@ earth_space_station_preparation = {
 	can_end = {
 		colonial_earth = {
 			owned_by = ROOT
-			is_colony = false
+			colonysize = 400
 		}
 		stability = 1
 	}
@@ -78,8 +78,9 @@ earth_space_station_preparation = {
 		random_events = { 
 			1000 = 0
 			100 = earth_space_station_preparation.2	#colonist wave
-			#100 = earth_space_station_preparation.3	#meteor shower
-			#100 = earth_space_station_preparation.4	#"live in space" campaign
+			100 = earth_space_station_preparation.3	#rocket explosion
+			100 = earth_space_station_preparation.4	#environment activists
+			#"live in space" campaign
 			#100 = earth_space_station_preparation.5	#sabotage
 			
 		}

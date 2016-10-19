@@ -1,0 +1,85 @@
+country_decisions = {
+
+	african_union_formation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			#NOT = { exists = BHA }
+			NOT = { exists = AUN }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 164
+			owns_core_province = 143
+			owns_core_province = 136
+			owns_core_province = 140
+			owns_core_province = 130
+			owns_core_province = 120
+			owns_core_province = 108
+		}
+		effect = {
+			set_government_rank = 3
+			change_tag = AUN
+			south_africa_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AUN
+			}
+			central_africa_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AUN
+			}
+			east_africa_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AUN
+			}
+			west_africa_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AUN
+			}
+			north_africa_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AUN
+			}
+			add_prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+}	
+
+

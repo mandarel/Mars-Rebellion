@@ -1,0 +1,76 @@
+country_decisions = {
+
+	eurasian_union_formation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			#NOT = { exists = BHA }
+			NOT = { exists = EUU }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				culture_group = east_slavic
+				culture_group = caucasian
+				primary_culture = khazak
+			}
+			
+		}
+		allow = {
+			
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 282 #moskva
+			owns_core_province = 63 #minsk
+			owns_core_province = 286 #astana
+		}
+		effect = {
+			set_government_rank = 3
+			change_tag = EUU
+			siberia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = EUU
+			}
+			russia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = EUU
+			}
+			east_europe_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = EUU
+			}
+			add_prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+}	
+
+

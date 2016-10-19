@@ -1,4 +1,13 @@
 ﻿l_english:
- african_union_formation:0 "Form African Union"
- desc_african_union_formation:0 "After much effort we are able to unite the African continent into one political entity."
- 
+ african_union_formation_title:0 "Form African Union"
+ african_union_formation_desc:0 "After much effort we are able to unite the African continent into one political entity."
+ mercosur_formation_title:0 "Form Mercosur"
+ mercosur_formation_desc:0 "After much effort we are able to unite the east of South America into one political entity."
+ comunidad_andida_formation_title:0 "Form Comunidad Andida"
+ comunidad_andida_formation_desc:0 "After much effort we are able to unite the west of South America into one political entity."
+ eurasian_union_formation_title:0 "Form Eurasian Union"
+ eurasian_union_formation_desc:0 "After much effort we are able to unite the former Soviet countries into one political entity."
+ byzantines_formation_title:0 "Reform Byzantine Empire"
+ byzantines_formation_desc:0 "We have acclaimed enough lands to be able to reform the late Byzantine Empire."
+ rome_formation_title:0 "Reform Roman Empire"
+ rome_formation_desc:0 "We have acclaimed enough lands to be able to reform the late Roman Empire."

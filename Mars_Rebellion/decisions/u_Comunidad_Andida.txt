@@ -1,0 +1,74 @@
+country_decisions = {
+
+	comunidad_andida_formation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			#NOT = { exists = BHA }
+			NOT = { exists = COA }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 5
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				culture_group = iberian
+			}
+			
+		}
+		allow = {
+			
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 179 #santiago
+			owns_core_province = 190 #lima
+			owns_core_province = 197 #bogota
+		}
+		effect = {
+			set_government_rank = 3
+			change_tag = COA
+			south_south_america_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			north_west_south_america_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			brazil_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			add_prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+}	
+
+

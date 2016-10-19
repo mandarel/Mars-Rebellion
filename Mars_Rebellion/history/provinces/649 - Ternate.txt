@@ -1,6 +1,6 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = AZE
+controller = AZE
+add_core = AZE
 capital = "Praha"
 culture = azerbaijani
 religion = shanghai_pact_sphere

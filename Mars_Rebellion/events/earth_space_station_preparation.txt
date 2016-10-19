@@ -86,6 +86,95 @@ country_event = {
 	}
 }
 country_event = {
+	id =  earth_space_station_preparation.2
+	title = "earth_space_station_preparation.2.t"
+	desc = "earth_space_station_preparation.2.d"
+	picture = COLONIZATION_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "earth_space_station_preparation.2.a"
+			random_owned_province = {
+				limit = {
+					is_colony = yes
+				}
+				add_colonysize = 50
+			}
+			add_years_of_income = -0.2
+
+	}
+	option = {
+		name = "earth_space_station_preparation.2.b"
+
+	}
+}
+country_event = {
+	id =  earth_space_station_preparation.3
+	title = "earth_space_station_preparation.3.t"
+	desc = "earth_space_station_preparation.3.d"
+	picture = COLONIZATION_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "earth_space_station_preparation.3.a"
+		add_country_modifier = {
+			name = explosion_scare
+			duration = 365
+		}
+		add_prestige = -5
+
+	}
+	option = {
+		name = "earth_space_station_preparation.3.b"
+		add_country_modifier = {
+			name = explosion_scare
+			duration = 180
+		}
+		add_prestige = -5
+		add_years_of_income = -0.2
+	}
+}
+country_event = {
+	id =  earth_space_station_preparation.4
+	title = "earth_space_station_preparation.4.t"
+	desc = "earth_space_station_preparation.4.d"
+	picture = COLONIZATION_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "earth_space_station_preparation.4.a"
+		add_country_modifier = {
+			name = environmentalist_denounces
+			duration = 730
+		}
+		
+
+	}
+	option = {
+		name = "earth_space_station_preparation.4.b"
+		add_years_of_income = -0.2
+	}
+}
+
+country_event = {
 	id =  earth_space_station_preparation.100
 	title = "earth_space_station_preparation.100.t"
 	desc = "earth_space_station_preparation.100.d"

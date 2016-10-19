@@ -1,7 +1,7 @@
 #275 - Polotsk
 
-owner = UKR 
-controller = UKR
+owner = MAC 
+controller = MAC
 culture = ruthenian
 religion = shanghai_pact_sphere 
 hre = yes
@@ -14,7 +14,7 @@ capital = "Polotsk"
 estate = estate_burghers
 is_city = yes 
 fort_15th = yes 
-add_core = UKR
+add_core = MAC
 
 
 

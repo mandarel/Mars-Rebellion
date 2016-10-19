@@ -1,6 +1,6 @@
-owner = MSA
-controller = MSA
-add_core = MSA
+owner = INN
+controller = INN
+add_core = INN
 capital = "Praha"
 culture = javanese
 religion = selfgovernance

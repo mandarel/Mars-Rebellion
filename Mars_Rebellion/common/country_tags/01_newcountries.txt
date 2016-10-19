@@ -1,6 +1,9 @@
 # Special countries..
 BYE = "countries/Byelorussia.txt"
+MAC	= "countries/Macedonia.txt"
+AZE	= "countries/Azerbaijan.txt"
 EUN = "countries/European Union.txt"
+EUU = "countries/Eurasian Union.txt"
 #Scandinavia
 ANG	= "countries/Angola.txt"
 STA	= "countries/SouthAfrica.txt"
@@ -39,6 +42,11 @@ IRA = "countries/Iran.txt"
 SRI = "countries/Sri Lanka.txt"
 CHI = "countries/China.txt"
 SKR	= "countries/SouthKorea.txt"
-
+PHI = "countries/Phillipines.txt"
+INN = "countries/Indonesia.txt"
+UZB = "countries/Uzbekistan.txt"
+TRK = "countries/Turkmenistan.txt"
 
 AUN = "countries/African Union.txt"
+MER = "countries/Mercosur.txt"
+COA = "countries/Comunidad Andida.txt"

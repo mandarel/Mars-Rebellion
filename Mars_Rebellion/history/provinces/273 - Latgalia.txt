@@ -1,8 +1,8 @@
 #Latgalia / Inflanty Duchy
 
-owner = KZH
-controller = KZH
-add_core = KZH
+owner = UZB
+controller = UZB
+add_core = UZB
 culture = kazani
 religion = shanghai_pact
 capital = "Dünaburg"

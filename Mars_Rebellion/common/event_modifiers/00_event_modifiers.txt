@@ -19,7 +19,12 @@ investment = {
 space_adventures = {
 	stability_cost_modifier = -0.05
 }
-
+explosion_scare = {
+	global_colonial_growth = -100
+}
+environmentalist_denounces = {
+	global_colonial_growth = -100
+}
 religious_center = {
 	local_missionary_strength = -0.05
 }
