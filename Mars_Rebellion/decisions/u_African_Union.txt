@@ -17,6 +17,15 @@ country_decisions = {
 					num_of_cities = 15
 				}
 			}
+			capital_scope = {
+				OR = {
+				region = north_africa_region 
+				region = west_africa_region 
+				region = east_africa_region 
+				region = central_africa_region 
+				region = south_africa_region
+				}
+			}
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no

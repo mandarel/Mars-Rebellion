@@ -1,0 +1,138 @@
+country_decisions = {
+
+	convert_to_shanghai_pact_sphere = {
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { religion = shanghai_pact_sphere }
+			NOT = { religion = shanghai_pact }
+			NOT = { religion = nato }
+
+		has_opinion = {
+			who = RUS
+			value = 50
+		}
+		}
+		allow = {	
+			OR = {
+				NOT = { has_country_flag  = recently_changed_alliance } 
+				had_country_flag = { flag = recently_changed_alliance days = 1460}
+			}
+			adm_tech = 2
+			years_of_income = 0.5
+		}
+		effect = {
+			add_years_of_income = -0.5
+			change_religion = shanghai_pact_sphere
+			set_country_flag = recently_changed_alliance
+		}	
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	
+	}
+	convert_to_shanghai_pact = {
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { religion = shanghai_pact }
+			NOT = { religion = nato }
+			NOT = { religion = nato_sphere }
+			has_opinion = {
+				who = RUS
+				value = 100
+			}
+		}
+		allow = {
+			OR = {
+				NOT = { has_country_flag  = recently_changed_alliance } 
+				had_country_flag = { flag = recently_changed_alliance days = 1460}
+			}
+			adm_tech = 2
+			years_of_income = 0.5
+		}
+		effect = {
+			add_years_of_income = -0.5
+			change_religion = shanghai_pact
+			set_country_flag = recently_changed_alliance
+		}	
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	
+	}
+		convert_to_nato = {
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { religion = shanghai_pact }
+			NOT = { religion = shanghai_pact_sphere }
+			NOT = { religion = nato }
+			
+			has_opinion = {
+				who = USA
+				value = 100
+			}
+		}
+		allow = {
+		OR = {
+				NOT = { has_country_flag  = recently_changed_alliance } 
+				had_country_flag = { flag = recently_changed_alliance days = 1460}
+			}
+			adm_tech = 2
+			years_of_income = 0.5
+		}
+		effect = {
+			add_years_of_income = -0.5
+			change_religion = nato
+			set_country_flag = recently_changed_alliance
+		}	
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	
+	}
+		convert_to_nato_sphere = {
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { religion = shanghai_pact }
+			NOT = { religion = nato }
+			NOT = { religion = nato_sphere }
+
+			has_opinion = {
+				who = USA
+				value = 50
+			}
+		}
+		allow = {	
+		OR = {
+				NOT = { has_country_flag  = recently_changed_alliance } 
+				had_country_flag = { flag = recently_changed_alliance days = 1460}
+			}
+			adm_tech = 2
+			years_of_income = 0.5
+		}
+		effect = {
+			add_years_of_income = -0.5
+			change_religion = nato_sphere
+			set_country_flag = recently_changed_alliance
+		}	
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	
+	}
+
+}
+	
+
+
