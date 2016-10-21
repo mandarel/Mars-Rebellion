@@ -1,0 +1,116 @@
+namespace = MR_Earth_Flavor
+country_event = {
+	id = MR_Earth_Flavor.1
+	title = "MR_Earth_Flavor.EVTNAME1"
+	desc = "MR_Earth_Flavor.EVTDESC1"
+	picture = ACCUSATION_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		colonists = 1
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+	}
+
+	option = {
+		name = "MR_Earth_Flavor.EVTOPTA1"
+		add_corruption = 1
+		add_country_modifier = {
+			name = entrepreneurs_funding
+			duration = 7300
+		}
+	}
+	option = {
+		name = "MR_Earth_Flavor.EVTOPTA1"
+		add_republican_tradition = 10
+		add_legitimacy = 10
+		add_prestige = 5
+	}
+}
+
+country_event = {
+	id = MR_Earth_Flavor.2
+	title = "MR_Earth_Flavor.EVTNAME2"
+	desc = "MR_Earth_Flavor.EVTDESC2"
+	picture = ACCUSATION_eventPicture
+
+	trigger = {
+		colonists = 1
+	}
+	
+	mean_time_to_happen = {
+		months = 480
+	}
+
+	option = {
+		name = "MR_Earth_Flavor.EVTOPTA2"
+		add_country_modifier = {
+			name = explosion_scare
+			duration = 3650
+		}
+	}
+	option = {
+		name = "MR_Earth_Flavor.EVTOPTB2"
+		add_adm_power = -50
+	}
+}
+
+country_event = {
+	id = MR_Earth_Flavor.3
+	title = "MR_Earth_Flavor.EVTNAME3"
+	desc = "MR_Earth_Flavor.EVTDESC3"
+	picture = ACCUSATION_eventPicture
+
+	trigger = {
+		NOT = { stability = 3 }
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+	}
+
+	option = {
+		name = "MR_Earth_Flavor.EVTOPTA3"
+		add_country_modifier = {
+			name = environmentalist_denounces
+			duration = 7300
+		}
+	}
+}
+
+country_event = {
+	id = MR_Earth_Flavor.4
+	title = "MR_Earth_Flavor.EVTNAME4"
+	desc = "MR_Earth_Flavor.EVTDESC4"
+	picture = ACCUSATION_eventPicture
+
+	trigger = {
+		colonists = 1
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "MR_Earth_Flavor.EVTOPTA4"
+		add_adm_power = -10
+		add_country_modifier = {
+			name = stronger_space_telescope
+			duration = -1
+		}
+	}
+	option = {
+		name = "MR_Earth_Flavor.EVTOPTB4"
+		add_prestige = -5
+		add_legitimacy = -10
+		add_republican_tradition = -10
+		add_country_modifier = {
+			name = stronger_space_telescope
+			duration = -1
+		}
+	}
+}
