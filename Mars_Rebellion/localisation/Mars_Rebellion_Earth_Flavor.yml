@@ -1,0 +1,27 @@
+MR_Earth_Flavor.EVTNAME1:0 "Wealthy Entrepreneurs Offer Funding"
+MR_Earth_Flavor.EVTDESC1:0 "The cost of space exploration is expensive. We can fund your endeavors for free. All we need are some favors."
+MR_Earth_Flavor.EVTOPTA1:0 "We don't need your money."
+MR_Earth_Flavor.EVTOPTB1:0 "Sounds reasonable."
+
+MR_Earth_Flavor.EVTNAME2:0 "Spaceship Explosion"
+MR_Earth_Flavor.EVTDESC2:0 "A space launch seemed to have had faulty calculations, and combusted before it could break the atmosphere of Earth. This scares many private space exploration companies, as well as making our investors and scientists reluctant to part with their time and money."
+MR_Earth_Flavor.EVTOPTA2:0 "These things happen."
+MR_Earth_Flavor.EVTOPTB2:0 "Hide the incident from all media."
+
+MR_Earth_Flavor.EVTNAME3:0 "Popular Environmentalist Denounce Space Program"
+MR_Earth_Flavor.EVTDESC3:0 "It's much too costly! We should focus the world's effort and fund on protecting the Earth instead of destroying other planets!"
+MR_Earth_Flavor.EVTOPTA3:0 "They don't know what they're talking about!"
+
+MR_Earth_Flavor.EVTNAME4:0 "A Stronger Type Of Space Telescope"
+MR_Earth_Flavor.EVTDESC4:0 "A reknowned scientist in $COUNTRY$ has invented a new space telescope. This model is much stronger than the Hubble Space Telescope, which itself was very powerful. "
+MR_Earth_Flavor.EVTOPTA4:0 "Amazing!"
+MR_Earth_Flavor.EVTOPTB4:0 "Let's take it. I'll call it 'The $RULERNAME$ Space Telescope'."
+
+entrepreneurs_funding:0 "Entrepreneurial Funding"
+entrepreneurs_funding_desc:0 "Wealthy investors find our space program to be a good investment, and are choosing to fund us generously."
+explosion_scare:0 "Explosion Scare"
+explosion_scare_desc:0 "Our space program has made the public less likely to support it due to a recent explosion of a spacecraft."
+environmentalist_denounces:0 "Environmentalist Denouncement"
+environmentalist_denounces_desc:0 "Environmentalists are in uproar about our reckless space exploration endeavors."
+stronger_space_telescope:0 "Stronger Space Telescope"
+stronger_space_telescope_desc:0 "Due to our advanced space telescope, our space program can advance faster."
