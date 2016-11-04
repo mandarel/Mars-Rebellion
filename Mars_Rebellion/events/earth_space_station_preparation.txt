@@ -86,35 +86,6 @@ country_event = {
 	}
 }
 country_event = {
-	id =  earth_space_station_preparation.2
-	title = "earth_space_station_preparation.2.t"
-	desc = "earth_space_station_preparation.2.d"
-	picture = COLONIZATION_eventPicture
-	
-	
-	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = "earth_space_station_preparation.2.a"
-			random_owned_province = {
-				limit = {
-					is_colony = yes
-				}
-				add_colonysize = 50
-			}
-			add_years_of_income = -0.2
-
-	}
-	option = {
-		name = "earth_space_station_preparation.2.b"
-
-	}
-}
-country_event = {
 	id =  earth_space_station_preparation.3
 	title = "earth_space_station_preparation.3.t"
 	desc = "earth_space_station_preparation.3.d"

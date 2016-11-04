@@ -1,0 +1,5 @@
+government = presidential_democracy 
+technology_group = eastern
+religion = shaghai_pact
+primary_culture = kazani
+capital = 266	

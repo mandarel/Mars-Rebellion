@@ -1,4 +1,4 @@
-government = despotic_monarchy 
+government = parliamentary_democracy 
 technology_group = western
 religion = european_union
 primary_culture = hungarian

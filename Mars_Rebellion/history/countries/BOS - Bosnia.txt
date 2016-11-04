@@ -1,4 +1,4 @@
-government = feudal_monarchy
+government = parliamentary_democracy
 primary_culture = serbian
 religion = nato_sphere
 technology_group = eastern

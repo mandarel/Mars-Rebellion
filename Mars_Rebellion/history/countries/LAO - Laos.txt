@@ -1,4 +1,4 @@
-government = presidential_democracy
+government = parliamentary_one_party_democracy
 technology_group = eastern
 primary_culture = bulgarian
 religion = shanghai_pact_sphere

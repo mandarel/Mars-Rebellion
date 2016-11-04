@@ -1,24 +1,21 @@
 #116 - Firenze
 
-owner = ALG
-controller = ALG
-culture = algerian 
-religion = selfgovernance 
-hre = yes 
-base_tax = 2
+owner = ITA
+controller = ITA
+add_core = ITA
+capital = "Baden"
+trade_goods = wine
+religion = european_union
+culture = romagnan
+base_tax = 2 
 base_production = 2
-base_manpower = 1  
-trade_goods = wine 
-fort_15th = yes
-capital = "Firenze" 
-is_city = yes 
- # Founded 1321
-add_core = ALG
+base_manpower = 1
+is_city = yes
+hre = yes
 
 
-
-discovered_by = western
 discovered_by = eastern
+discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 

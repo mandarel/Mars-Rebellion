@@ -2,21 +2,21 @@ country_decisions = {
 
 	convert_to_shanghai_pact_sphere = {
 		potential = {
-			normal_or_historical_nations = yes
 			NOT = { religion = shanghai_pact_sphere }
 			NOT = { religion = shanghai_pact }
 			NOT = { religion = nato }
 
-		has_opinion = {
-			who = RUS
-			value = 50
-		}
+
 		}
 		allow = {	
 			OR = {
 				NOT = { has_country_flag  = recently_changed_alliance } 
 				had_country_flag = { flag = recently_changed_alliance days = 1460}
-			}
+			}	
+			has_opinion = {
+			who = RUS
+			value = 30
+		}
 			adm_tech = 2
 			years_of_income = 0.5
 		}
@@ -24,6 +24,22 @@ country_decisions = {
 			add_years_of_income = -0.5
 			change_religion = shanghai_pact_sphere
 			set_country_flag = recently_changed_alliance
+			add_opinion = {
+				who = USA
+				modifier = shanghai_pact_member_sphere_usa
+			}
+			remove_opinion = {
+				who = USA
+				modifier = nato_member_sphere_usa
+			}
+			remove_opinion = {
+				who = RUS
+				modifier = nato_member_sphere_rus
+			}
+			add_opinion = {
+				who = RUS
+				modifier = shanghai_pact_member_sphere_rus
+			}
 		}	
 
 		
@@ -35,19 +51,19 @@ country_decisions = {
 	}
 	convert_to_shanghai_pact = {
 		potential = {
-			normal_or_historical_nations = yes
 			NOT = { religion = shanghai_pact }
 			NOT = { religion = nato }
 			NOT = { religion = nato_sphere }
-			has_opinion = {
-				who = RUS
-				value = 100
-			}
+
 		}
 		allow = {
 			OR = {
 				NOT = { has_country_flag  = recently_changed_alliance } 
 				had_country_flag = { flag = recently_changed_alliance days = 1460}
+			}	
+			has_opinion = {
+				who = RUS
+				value = 70
 			}
 			adm_tech = 2
 			years_of_income = 0.5
@@ -67,20 +83,20 @@ country_decisions = {
 	}
 		convert_to_nato = {
 		potential = {
-			normal_or_historical_nations = yes
 			NOT = { religion = shanghai_pact }
 			NOT = { religion = shanghai_pact_sphere }
 			NOT = { religion = nato }
 			
-			has_opinion = {
-				who = USA
-				value = 100
-			}
+
 		}
 		allow = {
 		OR = {
 				NOT = { has_country_flag  = recently_changed_alliance } 
 				had_country_flag = { flag = recently_changed_alliance days = 1460}
+			}	
+			has_opinion = {
+				who = USA
+				value = 70
 			}
 			adm_tech = 2
 			years_of_income = 0.5
@@ -100,20 +116,20 @@ country_decisions = {
 	}
 		convert_to_nato_sphere = {
 		potential = {
-			normal_or_historical_nations = yes
 			NOT = { religion = shanghai_pact }
 			NOT = { religion = nato }
 			NOT = { religion = nato_sphere }
 
-			has_opinion = {
-				who = USA
-				value = 50
-			}
+
 		}
 		allow = {	
 		OR = {
 				NOT = { has_country_flag  = recently_changed_alliance } 
 				had_country_flag = { flag = recently_changed_alliance days = 1460}
+			}	
+			has_opinion = {
+				who = USA
+				value = 30
 			}
 			adm_tech = 2
 			years_of_income = 0.5
@@ -122,6 +138,22 @@ country_decisions = {
 			add_years_of_income = -0.5
 			change_religion = nato_sphere
 			set_country_flag = recently_changed_alliance
+			remove_opinion = {
+				who = USA
+				modifier = shanghai_pact_member_sphere_usa
+			}
+			add_opinion = {
+				who = USA
+				modifier = nato_member_sphere_usa
+			}
+			add_opinion = {
+				who = RUS
+				modifier = nato_member_sphere_rus
+			}
+			remove_opinion = {
+				who = RUS
+				modifier = shanghai_pact_member_sphere_rus
+			}
 		}	
 
 		

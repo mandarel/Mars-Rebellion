@@ -1,4 +1,4 @@
-government = daimyo
+government = prime_minister_democracy
 primary_culture = croatian
 religion = nato
 technology_group = eastern

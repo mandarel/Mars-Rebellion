@@ -2,7 +2,7 @@
 
 owner = MAC 
 controller = MAC
-culture = ruthenian
+culture = greek
 religion = shanghai_pact_sphere 
 hre = yes
 base_tax = 6

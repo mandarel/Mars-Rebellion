@@ -1,4 +1,4 @@
-government = despotic_monarchy
+government = parliamentary_one_party_democracy
 primary_culture = korean
 religion = shanghai_pact
 technology_group = chinese

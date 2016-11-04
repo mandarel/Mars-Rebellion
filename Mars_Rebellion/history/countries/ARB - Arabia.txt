@@ -1,4 +1,4 @@
-government = iqta
+government = absolute_monarchy
 primary_culture = bedouin_arabic
 religion = nato_sphere
 technology_group = muslim

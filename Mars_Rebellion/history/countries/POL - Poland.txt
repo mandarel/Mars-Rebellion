@@ -1,4 +1,4 @@
-government = daimyo
+government = parliamentary_democracy
 primary_culture = polish
 religion = european_union
 technology_group = eastern

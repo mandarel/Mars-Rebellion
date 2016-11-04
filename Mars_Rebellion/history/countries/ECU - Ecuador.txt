@@ -1,4 +1,4 @@
-government = despotic_monarchy
+government = presidential_democracy
 primary_culture = ecuadorian
 religion = nato_sphere
 technology_group = eastern

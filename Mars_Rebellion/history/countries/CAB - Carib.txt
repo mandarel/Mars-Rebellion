@@ -1,0 +1,5 @@
+government = presidential_democracy
+technology_group = western
+primary_culture = american
+religion = nato_sphere
+capital = 215	# Caribean

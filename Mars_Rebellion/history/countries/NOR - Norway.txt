@@ -1,4 +1,4 @@
-government = daimyo
+government = monarch_parliamentary_democracy
 primary_culture = norwegian
 religion = nato
 technology_group = western

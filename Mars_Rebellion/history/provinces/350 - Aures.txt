@@ -1,20 +1,19 @@
 #350 - Laghwat
 
-owner = RUS
-controller = RUS 
-culture = russian
-religion = shanghai_pact
-capital = "Laghwat"
-trade_goods = wool
-hre = yes
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+owner = SEN
+controller =SEN
+add_core = SEN
+culture = senegambian
+religion = selfgovernance
+base_tax = 7 
+base_production = 7
+trade_goods = wine 
+base_manpower = 7
+fort_15th = yes #Vienna + Outer ring of fortifications
+capital = "Wien" 
 is_city = yes
-add_core = RUS
-
-
-
+hre = yes
 discovered_by = western
+discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman

@@ -1,17 +1,17 @@
 # 203 Lyonnais - Principal cities: Lyon
 
-owner = FRA
-controller = FRA
+owner = NIC
+controller = NIC
 capital = "Lyon"
 is_city = yes
 culture = occitain
 religion = nato_sphere
 hre = yes
-base_tax = 2
-base_production = 2
-base_manpower = 1
+base_tax = 8
+base_production = 8
 trade_goods = grain
-add_core = FRA
+base_manpower = 7
+add_core = NIC
 fort_15th = yes
 estate = estate_burghers
 

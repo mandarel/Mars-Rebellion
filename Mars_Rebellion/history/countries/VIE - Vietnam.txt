@@ -1,4 +1,4 @@
-government = feudal_monarchy
+government = parliamentary_one_party_democracy
 primary_culture = vietnamese
 religion = shanghai_pact_sphere
 technology_group = western

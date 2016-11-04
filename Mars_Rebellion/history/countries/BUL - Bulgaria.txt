@@ -1,4 +1,4 @@
-government = daimyo
+government = prime_minister_democracy
 technology_group = eastern
 primary_culture = bulgarian
 religion = european_union

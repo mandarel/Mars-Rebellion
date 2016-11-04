@@ -1,21 +1,23 @@
 #559 - Bundelkhand
 
-culture = ge
-discovered_by = south_american
-religion = animism
-capital = "Conceicao"
-trade_goods = unknown
-hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
-native_size = 15
-native_ferocity = 1
-native_hostileness = 7
+owner = EUN
+controller = EUN
+capital = "Liège"
+is_city = yes
+culture = wallonian
+religion = nato
+hre = yes
+base_tax = 6 
+base_production = 6
+trade_goods = iron
+base_manpower = 3
+add_core = EUN
+fort_15th = yes
+
 
 
 discovered_by = eastern
+discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-discovered_by = nomad_group
 

@@ -48,8 +48,30 @@ gov_presidential_democracy_fre = {
 		primary_culture = cosmopolitan_french
 	}
 }
-
-gov_prime_minister_democracy = {
+gov_parliamentary_one_party_democracy = {
+	rank = {
+		1 = PRESIDENTIALDEMOCRACY
+		2 = PRESIDENTIALDEMOCRACY
+		3 = PRESIDENTIALDEMOCRACY
+	}	
+	
+	ruler_male = {
+		1 = PRESIDENT
+		2 = PRESIDENT
+		3 = PRESIDENT
+	}
+	
+	ruler_female = {
+		1 = PRESIDENT
+		2 = PRESIDENT	
+		3 = PRESIDENT
+	}
+	
+	trigger = {
+		government = parliamentary_one_party_democracy
+	}
+}
+gov_parliamentary_democracy = {
 	rank = {
 		1 = PRIMEMINISTERDEMOCRACY
 		2 = PRIMEMINISTERDEMOCRACY
@@ -69,7 +91,76 @@ gov_prime_minister_democracy = {
 	}
 	
 	trigger = {
-		government = prime_minister_democracy
+		government = parliamentary_democracy
+	}
+}
+gov_monarch_parliamentary_democracy = {
+	rank = {
+		1 = PRIMEMINISTERDEMOCRACY
+		2 = PRIMEMINISTERDEMOCRACY
+		3 = PRIMEMINISTERDEMOCRACY
+	}	
+	
+	ruler_male = {
+		1 = PRIMEMINISTER
+		2 = PRIMEMINISTER
+		3 = PRIMEMINISTER
+	}
+	
+	ruler_female = {
+		1 = PRIMEMINISTER
+		2 = PRIMEMINISTER	
+		3 = PRIMEMINISTER
+	}
+	
+	trigger = {
+		government = monarch_parliamentary_democracy
+	}
+}
+gov_semi_presidential_democracy = {
+	rank = {
+		1 = PRESIDENTIALDEMOCRACY
+		2 = PRESIDENTIALDEMOCRACY
+		3 = PRESIDENTIALDEMOCRACY
+	}	
+	
+	ruler_male = {
+		1 = PRESIDENT
+		2 = PRESIDENT
+		3 = PRESIDENT
+	}
+	
+	ruler_female = {
+		1 = PRESIDENT
+		2 = PRESIDENT	
+		3 = PRESIDENT
+	}
+	
+	trigger = {
+		government = semi_presidential_democracy
+	}
+}
+gov_absolute_monarchy = {
+	rank = {
+		1 = ABSOLUTEMONARCHY
+		2 = ABSOLUTEMONARCHY
+		3 = ABSOLUTEMONARCHY
+	}	
+	
+	ruler_male = {
+		1 = KING
+		2 = KING
+		3 = KING
+	}
+	
+	ruler_female = {
+		1 = KING
+		2 = KING	
+		3 = KING
+	}
+	
+	trigger = {
+		government = absolute_monarchy
 	}
 }
 

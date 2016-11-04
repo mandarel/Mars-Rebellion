@@ -1,4 +1,4 @@
-government = daimyo
+government = presidential_democracy
 primary_culture = portugese
 religion = european_union
 technology_group = western

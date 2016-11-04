@@ -1,8 +1,8 @@
 #371 - Akureyri
 
-owner = CHI
-controller = CHI
-add_core = CHI 
+owner = THA
+controller = THA
+add_core = THA 
 culture = jianghuai
 religion = shanghai_pact
 hre = yes

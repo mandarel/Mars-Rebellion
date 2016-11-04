@@ -1,8 +1,8 @@
 #207 - Asturias
 
-owner = CAS		#Juan II of Castille
-controller = CAS
-add_core = CAS
+owner = GUA		#Juan II of Castille
+controller = GUA
+add_core = GUA
 culture = mexican
 religion = nato_sphere
 hre = yes

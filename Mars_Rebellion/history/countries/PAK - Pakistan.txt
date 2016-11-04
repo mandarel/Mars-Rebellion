@@ -1,4 +1,4 @@
-government = despotic_monarchy
+government = parliamentary_democracy
 technology_group = eastern
 primary_culture = sindhi
 religion = nato_sphere

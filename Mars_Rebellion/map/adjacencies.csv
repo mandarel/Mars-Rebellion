@@ -29,6 +29,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 622;316;sea;1721;-1;-1;-1;-1;java-malay
 622;623;sea;1721;-1;-1;-1;-1;sumatra-java
 
+620;621;sea;1263;-1;-1;-1;-1;Cuba-haiti
+621;215;sea;1262;-1;-1;-1;-1;haiti caribean
+215;198;sea;1262;-1;-1;-1;-1;caribean venezueala
+
 319;189;sea;1721;-1;-1;-1;-1;earth-luna
 189;391;sea;1721;-1;-1;-1;-1;luna-luna_surface
 

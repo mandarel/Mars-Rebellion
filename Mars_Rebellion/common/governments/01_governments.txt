@@ -46,7 +46,139 @@ presidential_democracy = {
 		}
 	}
 }
-prime_minister_democracy = {
+   absolute_monarchy = {
+	monarchy = yes
+		
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	color = { 180 50 25 }
+		
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+	
+	max_states = 5
+
+	rank = {
+		1 = {
+			global_unrest = -1	
+			unjustified_demands = -0.1
+		}
+		2 = {
+			global_unrest = -1
+			unjustified_demands = -0.1		
+		}
+		3 = {
+			global_unrest = -1
+			unjustified_demands = -0.1		
+			global_autonomy = -0.025
+		}
+	}
+
+}
+ parliamentary_one_party_democracy = {
+	monarchy = yes
+		
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	color = { 180 50 25 }
+		
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+	
+	max_states = 5
+
+	rank = {
+		1 = {
+			global_unrest = -1	
+			unjustified_demands = -0.1
+		}
+		2 = {
+			global_unrest = -1
+			unjustified_demands = -0.1		
+		}
+		3 = {
+			global_unrest = -1
+			unjustified_demands = -0.1		
+			global_autonomy = -0.025
+		}
+	}
+
+}
+semi_presidential_democracy = {
+	monarchy = yes
+		
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	color = { 180 50 25 }
+		
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+	
+	max_states = 5
+
+	rank = {
+		1 = {
+			global_unrest = -1	
+			unjustified_demands = -0.1
+		}
+		2 = {
+			global_unrest = -1
+			unjustified_demands = -0.1		
+		}
+		3 = {
+			global_unrest = -1
+			unjustified_demands = -0.1		
+			global_autonomy = -0.025
+		}
+	}
+
+}
+parliamentary_democracy = {
+	monarchy = yes
+		
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	color = { 180 50 25 }
+		
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+	
+	max_states = 5
+
+	rank = {
+		1 = {
+			global_unrest = -1	
+			unjustified_demands = -0.1
+		}
+		2 = {
+			global_unrest = -1
+			unjustified_demands = -0.1		
+		}
+		3 = {
+			global_unrest = -1
+			unjustified_demands = -0.1		
+			global_autonomy = -0.025
+		}
+	}
+
+}
+monarch_parliamentary_democracy = {
 	monarchy = yes
 		
 	valid_for_new_country = yes

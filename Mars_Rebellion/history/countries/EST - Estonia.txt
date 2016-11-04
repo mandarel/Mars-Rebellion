@@ -1,4 +1,4 @@
-government = daimyo
+government = parliamentary_democracy
 government_rank = 1
 technology_group = western
 religion = european_union

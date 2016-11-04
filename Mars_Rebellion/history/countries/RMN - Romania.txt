@@ -1,4 +1,4 @@
-government = daimyo
+government = semi_presidential_democracy
 primary_culture = romanian
 religion = european_union
 technology_group = eastern

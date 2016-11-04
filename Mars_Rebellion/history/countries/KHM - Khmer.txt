@@ -1,4 +1,4 @@
-government = despotic_monarchy 
+government = monarch_parliamentary_democracy 
 technology_group = western
 religion = shanghai_pact_sphere
 primary_culture = brazillian

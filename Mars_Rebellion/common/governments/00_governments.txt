@@ -149,56 +149,6 @@ administrative_monarchy = {
 	}
 }
 
-absolute_monarchy = {
-	monarchy = yes
-	
-	color = { 179 100 100 }
-	
-	valid_for_new_country = yes
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { 
-				government = despotic_monarchy 
-				government = feudal_monarchy
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				has_idea_group = economic_ideas
-				has_idea_group = trade_ideas
-			}
-		}
-	}
-	ai_importance = 4
-	
-	#bonus
-	
-	max_states = 5
-
-	
-	rank = {
-		1 = {
-			discipline = 0.05
-			global_unrest = -1
-			global_autonomy = -0.05
-		}
-		2 = {
-			discipline = 0.05
-			global_unrest = -1
-			global_autonomy = -0.075	
-		}
-		3 = {	
-			discipline = 0.05
-			global_unrest = -1
-			global_autonomy = -0.10	
-		}
-	}
-}
-
 constitutional_monarchy = {
 	monarchy = yes
 	
@@ -252,7 +202,7 @@ enlightened_despotism = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { government = absolute_monarchy }
+		
 		}
 	}
 	ai_importance = 5

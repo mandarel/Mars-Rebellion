@@ -1,7 +1,7 @@
 # 202 Avignon - Principal cities: Avignon
 
-owner = AVI		# The great Schism
-controller = AVI
+owner = PAN		# The great Schism
+controller = PAN
 capital = "Avignon"
 is_city = yes
 culture = occitain
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 trade_goods = cloth
 base_manpower = 4
-add_core = AVI
+add_core = PAN
 
 
 discovered_by = eastern

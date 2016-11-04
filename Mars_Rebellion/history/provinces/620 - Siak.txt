@@ -1,6 +1,6 @@
-owner = USA
-controller = USA
-add_core = USA
+owner = CUB
+controller = CUB
+add_core = CUB
 capital = "Praha"
 culture = american
 religion = shanghai_pact_sphere

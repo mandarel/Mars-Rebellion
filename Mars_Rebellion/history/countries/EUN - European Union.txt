@@ -1,4 +1,4 @@
-government = shogunate
+government = monarch_parliamentary_democracy
 government_rank = 3
 primary_culture = flemish
 religion = european_union

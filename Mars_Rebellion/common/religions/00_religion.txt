@@ -1,6 +1,107 @@
 # If you add religions, and use those tags, do not change them without changing everywhere they are used.
 
 # Uses all 'modifiers' possible thats exported as a Modifier.
+european_union_progression = {
+	defender_of_faith = yes
+	can_form_personal_unions = yes
+	center_of_religion = 95
+	unified = {
+		color = { 0.55 1.0 0.28 }
+		icon = 1
+		allowed_conversion = {
+			shanghai_pact
+		}
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+		on_convert = {
+			change_religion = unity
+			add_prestige = -100
+						
+		
+		}
+
+}
+	semi_unified = {
+		color = { 0.45 0.83 0.23 }
+		icon = 1
+		allowed_conversion = {
+			shanghai_pact
+		}
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+		on_convert = {
+			change_religion = unity
+			add_prestige = -100
+						
+		
+		}
+
+}
+	member_state = {
+		color = { 0.34 0.62 0.17 }
+		icon = 1
+		allowed_conversion = {
+			shanghai_pact
+		}
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+		on_convert = {
+			change_religion = unity
+			add_prestige = -100
+						
+		
+		}
+
+}
+	candidate_state = {
+		color = { 0.19 0.36 0.09 }
+		icon = 1
+		allowed_conversion = {
+			shanghai_pact
+		}
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+		on_convert = {
+			change_religion = unity
+			add_prestige = -100
+						
+		
+		}
+
+}
+	potential_candidate_state = {
+		color = { 0.09 0.18 0.05 }
+		icon = 1
+		allowed_conversion = {
+			shanghai_pact
+		}
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+		on_convert = {
+			change_religion = unity
+			add_prestige = -100
+						
+		
+		}
+
+}
+}
+
 political_earth = {
 	defender_of_faith = yes
 	can_form_personal_unions = yes

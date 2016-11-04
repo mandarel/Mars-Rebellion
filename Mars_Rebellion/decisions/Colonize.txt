@@ -41,7 +41,47 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
-	
+		colonize_venus = {
+		potential = {
+			normal_or_historical_nations = yes
+			has_country_flag = built_earth_station 
+			NOT = { has_country_flag = sent_venus_expedition }
+			NOT = { has_country_flag = arrived_venus_expedition }
+			NOT = { has_country_flag = building_earth_station }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+					total_development = 150
+					OR = {
+					is_subject = no
+					NOT = { overlord = EUN }
+					}
+				}
+			}
+			any_province = {
+				limit = {colonial_region = colonial_venus }
+				is_empty = yes
+			}
+
+		}
+		allow = {
+			adm_tech = 7
+		# Aberdeen
+		}
+		effect = {
+			add_years_of_income = -0.3
+			set_country_flag = sent_venus_expedition
+			ROOT = { country_event = { id = venus_colonisation.1 days = 100 }}
+		}	
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
 }
 
 

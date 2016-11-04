@@ -1,4 +1,4 @@
-government = despotic_monarchy
+government = presidential_democracy
 government_rank = 3
 primary_culture = chilean
 religion = nato_sphere

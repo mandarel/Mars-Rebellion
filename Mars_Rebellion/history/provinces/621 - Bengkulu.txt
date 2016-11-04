@@ -1,22 +1,21 @@
 
-culture = lunacy
-religion = noreligion
-capital = "Lunar Dust"
-trade_goods = unknown
+owner = HAT
+controller = HAT
+capital = "Liège"
+is_city = yes
+culture = american
+religion = nato_sphere
 hre = yes
-base_tax = 5
-base_production = 4
-base_manpower = 1
-native_size = 0
-native_ferocity = 0
-native_hostileness = 0
+base_tax = 6 
+base_production = 6
+trade_goods = iron
+base_manpower = 3
+add_core = HAT
+fort_15th = yes
+
 
 
 discovered_by = eastern
-discovered_by = muslim
-discovered_by = indian
-discovered_by = east_african
-discovered_by = south_american
-discovered_by = chinese
-discovered_by = sub_saharan
 discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

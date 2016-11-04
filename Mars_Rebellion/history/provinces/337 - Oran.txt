@@ -1,9 +1,9 @@
 #337 - Oran
 
-owner = RUS
-controller = RUS
-culture = russian
-religion = shanghai_pact
+owner = GAB
+controller = GAB
+culture = kongolese
+religion = selfgovernance
 capital = "Oran"
 trade_goods = cloth
 hre = yes
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = RUS
+add_core = GAB
 
 
 

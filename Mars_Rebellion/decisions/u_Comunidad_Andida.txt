@@ -10,6 +10,7 @@ country_decisions = {
 			}
 			#NOT = { exists = BHA }
 			NOT = { exists = COA }
+			NOT = { TAG = MER }
 			OR = {
 				ai = no
 				AND = {

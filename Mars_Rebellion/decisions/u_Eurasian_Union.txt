@@ -39,7 +39,7 @@ country_decisions = {
 			is_at_war = no
 			stability = 3
 			owns_core_province = 282 #moskva
-			owns_core_province = 63 #minsk
+			owns_core_province = 64 #minsk
 			owns_core_province = 286 #astana
 		}
 		effect = {

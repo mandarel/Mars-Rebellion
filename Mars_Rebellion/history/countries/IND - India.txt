@@ -1,4 +1,4 @@
-government = presidential_democracy
+government = parliamentary_democracy
 primary_culture = rajput
 religion = selfgovernance
 technology_group = western

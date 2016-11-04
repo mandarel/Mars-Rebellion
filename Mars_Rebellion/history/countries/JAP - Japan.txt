@@ -1,4 +1,4 @@
-government = feudal_monarchy
+government = monarch_parliamentary_democracy
 government_rank = 2
 primary_culture = togoku
 religion = nato_sphere

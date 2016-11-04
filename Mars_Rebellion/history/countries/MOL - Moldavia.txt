@@ -1,4 +1,4 @@
-government = feudal_monarchy
+government = parliamentary_democracy
 primary_culture = romanian
 religion = shanghai_pact_sphere
 technology_group = eastern

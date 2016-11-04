@@ -1,0 +1,16 @@
+
+shanghai_pact_sphereling = {
+	opinion = 40
+}
+shanghai_pact_member_sphere_usa = {
+	opinion = -40
+}
+shanghai_pact_member_sphere_rus = {
+	opinion = 40
+}
+nato_member_sphere_rus = {
+	opinion = -40
+}
+nato_member_sphere_usa = {
+	opinion = 40
+}

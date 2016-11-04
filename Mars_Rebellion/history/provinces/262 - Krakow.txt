@@ -6,10 +6,10 @@ culture = al_suryah_arabic
 religion = shanghai_pact
 capital = "Kraków"
 hre = yes
-base_tax = 2
-base_production = 2
-base_manpower = 1
+base_tax = 8
+base_production = 8
 trade_goods = salt
+base_manpower = 7
 is_city = yes
 fort_15th = yes
  #Jagiellonian University established in 1364 by Casimir III the Great

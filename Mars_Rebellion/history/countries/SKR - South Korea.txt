@@ -2,4 +2,4 @@ government = presidential_democracy
 primary_culture = korean
 religion = nato_sphere
 technology_group = western
-capital = 362	# Hanseong# No previous file for South Korea
+capital = 362	# Hanseong

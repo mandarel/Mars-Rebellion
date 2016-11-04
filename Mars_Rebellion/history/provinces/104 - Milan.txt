@@ -3,12 +3,12 @@
 owner = GBR
 controller = GBR
 culture = scottish
-religion = european_union
+religion = nato
 hre = yes
-base_tax = 2
-base_production = 2
-base_manpower = 1
+base_tax = 11 
+base_production = 11 
 trade_goods = cloth
+base_manpower = 8
 fort_15th = yes #Sforza Castle
 capital = "Milano"
 is_city = yes	# Estimated

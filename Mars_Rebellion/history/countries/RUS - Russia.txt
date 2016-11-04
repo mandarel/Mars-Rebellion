@@ -1,4 +1,4 @@
-government = presidential_democracy
+government = semi_presidential_democracy
 primary_culture = russian
 religion = shanghai_pact
 technology_group = western

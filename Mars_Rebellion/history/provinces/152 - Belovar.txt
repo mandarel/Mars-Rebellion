@@ -3,7 +3,7 @@
 owner = TAN
 controller = TAN
 culture = swahili
-religion = shanghai_pact_sphere
+religion = selfgovernance
 capital = "Varazdin"
 trade_goods = cloth
 hre = yes

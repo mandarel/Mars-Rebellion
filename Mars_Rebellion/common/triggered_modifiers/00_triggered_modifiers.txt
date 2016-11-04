@@ -1,0 +1,22 @@
+shanghai_sphere_opinion = {
+	potential = {
+		normal_or_historical_nations = yes
+		religion = shanghai_pact_sphere	
+	}
+
+	trigger = {
+		religion = shanghai_pact_sphere	
+	}
+
+}
+world_coloniser = {
+	potential = {
+		
+	}
+
+	trigger = {
+		has_country_flag = building_earth_station
+	}
+	colonists = 4
+
+}

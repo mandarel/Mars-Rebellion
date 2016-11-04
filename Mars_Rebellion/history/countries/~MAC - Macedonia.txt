@@ -1,0 +1,6 @@
+government = daimyo
+technology_group = eastern
+primary_culture = bulgarian
+religion = european_union
+capital = 651	
+# Sofia# No previous file for Macedonia

@@ -1,4 +1,4 @@
-government = presidential_democracy
+government = parliamentary_democracy
 primary_culture = czech
 religion = european_union
 capital = 82 # Praha

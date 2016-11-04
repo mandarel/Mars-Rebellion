@@ -1,4 +1,4 @@
-government = daimyo
+government = parliamentary_democracy
 technology_group = eastern
 religion = european_union
 primary_culture = latvian

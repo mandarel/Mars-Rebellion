@@ -1,9 +1,9 @@
 #215 - Valladolid
 
-owner = MEX		#Juan II of Castille
-controller = MEX
-add_core = MEX
-culture = mexican
+owner = CAB		#Juan II of Castille
+controller = CAB
+add_core = CAB
+culture = american
 religion = nato_sphere
 hre = yes
 base_tax = 5

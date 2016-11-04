@@ -1,4 +1,4 @@
-government = daimyo
+government = presidential_democracy
 technology_group = western
 religion = european_union
 primary_culture = lombard

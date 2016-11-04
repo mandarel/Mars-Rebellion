@@ -426,7 +426,7 @@ base_values = {
 	merc_maintenance_modifier = 1.5
 	merchants = 2							#Start with 2 merchants
 	diplomats = 5							#Start with 2 diplomats..
-	colonists = 1	
+	colonists = -2	
 	missionaries = 3						#1 missionary
 	army_tradition_decay = 0.05				#lose 5% yearly
 	navy_tradition_decay = 0.05				#lose 5% yearly
@@ -584,7 +584,7 @@ trade_refusal = {
 }
 
 mercantilism = {
-	global_prov_trade_power_modifier = 2.0
+	global_prov_trade_power_modifier = 0.02
 }
 
 army_tradition = {
@@ -1058,7 +1058,7 @@ orangists = {
 ########################################
 
 custom_setup = {
-	colonists = 1
+	colonists = 0
 	global_tax_income = 20
 }
 

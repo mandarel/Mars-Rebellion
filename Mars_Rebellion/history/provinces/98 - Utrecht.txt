@@ -5,12 +5,12 @@ controller = GBR
 capital = "Utrecht"
 is_city = yes
 culture = english
-religion = european_union
+religion = nato
 hre = yes
-base_tax = 18
-base_production = 18
-trade_goods = fish
-base_manpower = 10
+base_tax = 7 
+base_production = 7
+trade_goods = cloth
+base_manpower = 3
 add_core = GBR
 fort_15th = yes
 

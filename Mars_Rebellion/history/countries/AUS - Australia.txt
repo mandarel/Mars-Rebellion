@@ -1,4 +1,4 @@
-government = constitutional_republic
+government = monarch_parliamentary_democracy
 technology_group = western
 religion = nato_sphere
 primary_culture = english

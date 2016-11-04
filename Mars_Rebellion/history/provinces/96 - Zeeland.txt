@@ -6,12 +6,12 @@ add_core = GER
 is_city = yes
 capital = "Middelburg"
 culture = german
-religion = european_union
+religion = nato
 hre = yes
-base_tax = 18
-base_production = 18
-trade_goods = fish
-base_manpower = 10
+base_tax = 8 
+base_production = 8
+trade_goods = salt
+base_manpower = 3
 
 
 

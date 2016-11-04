@@ -10,11 +10,12 @@ country_decisions = {
 			}
 			#NOT = { exists = BHA }
 			NOT = { exists = MER }
+			NOT = { TAG = COA }
 			OR = {
 				ai = no
 				AND = {
 					ai = yes
-					num_of_cities = 15
+					num_of_cities = 5
 				}
 			}
 			is_colonial_nation = no

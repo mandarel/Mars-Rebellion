@@ -1,4 +1,4 @@
-government = daimyo
+government = monarch_parliamentary_democracy
 primary_culture = castillian
 religion = european_union
 technology_group = western
